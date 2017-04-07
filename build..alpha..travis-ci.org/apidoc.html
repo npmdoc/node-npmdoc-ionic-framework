@@ -1,0 +1,1385 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/driftyco/ionic/tree/2.0%60#readme"
+
+    >ionic-framework (v2.0.0-beta.2)</a>
+</h1>
+<h4>An advanced HTML5 mobile app framework built on Angular2</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ionic-framework">module ionic-framework</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generator">
+            function <span class="apidocSignatureSpan">ionic-framework.</span>generator
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ionic-framework.</span>click_block</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ionic-framework.</span>events</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ionic-framework.</span>feature_detect</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ionic-framework.</span>generate</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ionic-framework.</span>generator.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ionic-framework.</span>translate</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ionic-framework.</span>util</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ionic-framework.click_block">module ionic-framework.click_block</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.click_block.ClickBlock">
+            function <span class="apidocSignatureSpan">ionic-framework.click_block.</span>ClickBlock
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ionic-framework.events">module ionic-framework.events</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.events.Events">
+            function <span class="apidocSignatureSpan">ionic-framework.events.</span>Events
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ionic-framework.feature_detect">module ionic-framework.feature_detect</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.feature_detect.FeatureDetect">
+            function <span class="apidocSignatureSpan">ionic-framework.feature_detect.</span>FeatureDetect
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ionic-framework.generate">module ionic-framework.generate</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generate.generate">
+            function <span class="apidocSignatureSpan">ionic-framework.</span>generate
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generate.loadGenerator">
+            function <span class="apidocSignatureSpan">ionic-framework.generate.</span>loadGenerator
+            <span class="apidocSignatureSpan">(generator)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generate.loadGenerators">
+            function <span class="apidocSignatureSpan">ionic-framework.generate.</span>loadGenerators
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generate.printAvailableGenerators">
+            function <span class="apidocSignatureSpan">ionic-framework.generate.</span>printAvailableGenerators
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ionic-framework.generate.</span>_generators</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ionic-framework.generate.</span>generators</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ionic-framework.generator">module ionic-framework.generator</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generator.generator">
+            function <span class="apidocSignatureSpan">ionic-framework.</span>generator
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ionic-framework.generator.prototype">module ionic-framework.generator.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generator.prototype.loadTemplates">
+            function <span class="apidocSignatureSpan">ionic-framework.generator.prototype.</span>loadTemplates
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generator.prototype.makeDirectories">
+            function <span class="apidocSignatureSpan">ionic-framework.generator.prototype.</span>makeDirectories
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generator.prototype.renderTemplate">
+            function <span class="apidocSignatureSpan">ionic-framework.generator.prototype.</span>renderTemplate
+            <span class="apidocSignatureSpan">(template)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generator.prototype.renderTemplates">
+            function <span class="apidocSignatureSpan">ionic-framework.generator.prototype.</span>renderTemplates
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.generator.prototype.run">
+            function <span class="apidocSignatureSpan">ionic-framework.generator.prototype.</span>run
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ionic-framework.translate">module ionic-framework.translate</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.translate.Translate">
+            function <span class="apidocSignatureSpan">ionic-framework.translate.</span>Translate
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ionic-framework.util">module ionic-framework.util</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.assign">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>assign
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.clamp">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>clamp
+            <span class="apidocSignatureSpan">(min, n, max)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.debounce">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>debounce
+            <span class="apidocSignatureSpan">(fn, wait, immediate)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.defaults">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>defaults
+            <span class="apidocSignatureSpan">(dest)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.getQuerystring">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>getQuerystring
+            <span class="apidocSignatureSpan">(url)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.isArray">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>isArray
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.isBlank">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>isBlank
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.isBoolean">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>isBoolean
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.isDefined">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>isDefined
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.isFunction">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>isFunction
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.isNumber">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>isNumber
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.isObject">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>isObject
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.isString">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>isString
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.isTrueProperty">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>isTrueProperty
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.isUndefined">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>isUndefined
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.merge">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>merge
+            <span class="apidocSignatureSpan">(dst)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.nextUid">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>nextUid
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.pascalCaseToDashCase">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>pascalCaseToDashCase
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ionic-framework.util.throttle">
+            function <span class="apidocSignatureSpan">ionic-framework.util.</span>throttle
+            <span class="apidocSignatureSpan">(fn, wait, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ionic-framework.util.</span>array</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ionic-framework" id="apidoc.module.ionic-framework">module ionic-framework</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generator" id="apidoc.element.ionic-framework.generator">
+        function <span class="apidocSignatureSpan">ionic-framework.</span>generator
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Generator(options) {
+  this.name = options.name;
+  this.type = options.generator;
+  this.appDirectory = options.appDirectory;
+
+  //templateVars
+  this.fileName = _.kebabCase(this.name);
+  this.jsClassName = _.capitalize(_.camelCase(this.name));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ionic-framework.click_block" id="apidoc.module.ionic-framework.click_block">module ionic-framework.click_block</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.click_block.ClickBlock" id="apidoc.element.ionic-framework.click_block.ClickBlock">
+        function <span class="apidocSignatureSpan">ionic-framework.click_block.</span>ClickBlock
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ClickBlock() {
+    this._enabled = false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ionic-framework.events" id="apidoc.module.ionic-framework.events">module ionic-framework.events</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.events.Events" id="apidoc.element.ionic-framework.events.Events">
+        function <span class="apidocSignatureSpan">ionic-framework.events.</span>Events
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Events() {
+    this._channels = [];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ionic-framework.feature_detect" id="apidoc.module.ionic-framework.feature_detect">module ionic-framework.feature_detect</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.feature_detect.FeatureDetect" id="apidoc.element.ionic-framework.feature_detect.FeatureDetect">
+        function <span class="apidocSignatureSpan">ionic-framework.feature_detect.</span>FeatureDetect
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function FeatureDetect() {
+    this._results = {};
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ionic-framework.generate" id="apidoc.module.ionic-framework.generate">module ionic-framework.generate</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generate.generate" id="apidoc.element.ionic-framework.generate.generate">
+        function <span class="apidocSignatureSpan">ionic-framework.</span>generate
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function generate(options) {
+  if (!options) {
+    throw new Error(&#x27;No options passed to generator&#x27;);
+  }
+
+  if (!options.generator) {
+    throw new Error(&#x27;No generator passed to generate&#x27;);
+  }
+
+  var GeneratorType = Generate.loadGenerator(options.generator);
+  return new GeneratorType(options).run();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generate.loadGenerator" id="apidoc.element.ionic-framework.generate.loadGenerator">
+        function <span class="apidocSignatureSpan">ionic-framework.generate.</span>loadGenerator
+        <span class="apidocSignatureSpan">(generator)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function loadGenerator(generator) {
+  var generateModule;
+  try {
+    generateModule = require(path.join(__dirname, &#x27;generators&#x27;, generator));
+  } catch (err) {
+    if (err.code === &#x27;MODULE_NOT_FOUND&#x27;) {
+      throw new Error(&#x27;There is no generator available with the name &#x27; + generator + &#x27;.&#x27;);
+    } else {
+      throw err;
+    }
+  }
+  return generateModule;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  throw new Error(&#x27;No options passed to generator&#x27;);
+}
+
+if (!options.generator) {
+  throw new Error(&#x27;No generator passed to generate&#x27;);
+}
+
+var GeneratorType = Generate.<span class="apidocCodeKeywordSpan">loadGenerator</span>(options.generator);
+return new GeneratorType(options).run();
+};
+
+
+Generate.loadGenerator = function loadGenerator(generator) {
+var generateModule;
+try {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generate.loadGenerators" id="apidoc.element.ionic-framework.generate.loadGenerators">
+        function <span class="apidocSignatureSpan">ionic-framework.generate.</span>loadGenerators
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function loadGenerators() {
+  var generators = {};
+  try {
+    generators = fs.readdirSync(path.join(__dirname, &#x27;generators&#x27;));
+  } catch(err) {
+    throw new Error(&#x27;There was an error loading the generators list&#x27;, err);
+  }
+  return generators;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  path = require(&#x27;path&#x27;),
+  inquirer = require(&#x27;inquirer&#x27;);
+
+Generate = module.exports;
+
+Generate.__defineGetter__(&#x27;generators&#x27;, function() {
+if (!Generate._generators) {
+  Generate._generators = Generate.<span class="apidocCodeKeywordSpan">loadGenerators</span>();
+}
+
+return Generate._generators;
+});
+
+Generate.generate = function generate(options) {
+if (!options) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generate.printAvailableGenerators" id="apidoc.element.ionic-framework.generate.printAvailableGenerators">
+        function <span class="apidocSignatureSpan">ionic-framework.generate.</span>printAvailableGenerators
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function printAvailableGenerators() {
+  console.log(&#x27;Available generators:&#x27;.blue);
+  Generate.generators.forEach(function(generator){
+    console.log(&#x27; *&#x27;.blue, generator);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ionic-framework.generator" id="apidoc.module.ionic-framework.generator">module ionic-framework.generator</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generator.generator" id="apidoc.element.ionic-framework.generator.generator">
+        function <span class="apidocSignatureSpan">ionic-framework.</span>generator
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Generator(options) {
+  this.name = options.name;
+  this.type = options.generator;
+  this.appDirectory = options.appDirectory;
+
+  //templateVars
+  this.fileName = _.kebabCase(this.name);
+  this.jsClassName = _.capitalize(_.camelCase(this.name));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ionic-framework.generator.prototype" id="apidoc.module.ionic-framework.generator.prototype">module ionic-framework.generator.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generator.prototype.loadTemplates" id="apidoc.element.ionic-framework.generator.prototype.loadTemplates">
+        function <span class="apidocSignatureSpan">ionic-framework.generator.prototype.</span>loadTemplates
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">loadTemplates = function () {
+  var generatorPath = path.join(__dirname, &#x27;generators&#x27;, this.type);
+  var templates = [];
+  fs.readdirSync(generatorPath)
+  .forEach(function(template) {
+    var type;
+    // Go through all the files in the folder, grab the templates, read in the file contents
+    // return as template type, contents
+    if (template.indexOf(&#x27;.tmpl&#x27;) == -1) {
+      return;
+    }
+
+    templates.push({path: path.join(generatorPath, template), extension: path.extname(template)});
+  }, this);
+
+  return templates;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (!this.directory) {
+  throw new Error(&#x27;Generators must define their directory in their constructor.\nEx: \&#x27;pages\&#x27;, \&#x27;components\&#x27;, etc.&#x27;);
+}
+mkdirp.sync(path.join(this.appDirectory, &#x27;app&#x27;, this.directory, this.fileName));
+}
+
+Generator.prototype.renderTemplates = function renderTemplates() {
+var templates = this.<span class="apidocCodeKeywordSpan">loadTemplates</span>();
+
+templates.forEach(function(template) {
+  var renderedTemplate = this.renderTemplate(template);
+  var renderedTemplateDest = path.join(this.appDirectory, &#x27;app&#x27;, this.directory, this.fileName, this.fileName + template
+.extension);
+  console.log(&#x27;√ Create&#x27;.blue, path.relative(this.appDirectory, renderedTemplateDest));
+  fs.writeFileSync(renderedTemplateDest, renderedTemplate);
+}, this);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generator.prototype.makeDirectories" id="apidoc.element.ionic-framework.generator.prototype.makeDirectories">
+        function <span class="apidocSignatureSpan">ionic-framework.generator.prototype.</span>makeDirectories
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">makeDirectories = function (){
+  if (!this.directory) {
+    throw new Error(&#x27;Generators must define their directory in their constructor.\nEx: \&#x27;pages\&#x27;, \&#x27;components\&#x27;, etc.&#x27;);
+  }
+  mkdirp.sync(path.join(this.appDirectory, &#x27;app&#x27;, this.directory, this.fileName));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+//templateVars
+this.fileName = _.kebabCase(this.name);
+this.jsClassName = _.capitalize(_.camelCase(this.name));
+}
+
+Generator.prototype.run = function(){
+this.<span class="apidocCodeKeywordSpan">makeDirectories</span>();
+this.renderTemplates();
+}
+
+Generator.prototype.makeDirectories = function(){
+if (!this.directory) {
+  throw new Error(&#x27;Generators must define their directory in their constructor.\nEx: \&#x27;pages\&#x27;, \&#x27;components\&#x27;, etc.&#x27;);
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generator.prototype.renderTemplate" id="apidoc.element.ionic-framework.generator.prototype.renderTemplate">
+        function <span class="apidocSignatureSpan">ionic-framework.generator.prototype.</span>renderTemplate
+        <span class="apidocSignatureSpan">(template)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">renderTemplate = function (template) {
+  var templateContents = fs.readFileSync(template.path, &#x27;utf8&#x27;);
+  var templateCompiler = _.template(templateContents);
+  var result = templateCompiler(this);
+  return result;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  mkdirp.sync(path.join(this.appDirectory, &#x27;app&#x27;, this.directory, this.fileName));
+}
+
+Generator.prototype.renderTemplates = function renderTemplates() {
+  var templates = this.loadTemplates();
+
+  templates.forEach(function(template) {
+    var renderedTemplate = this.<span class="apidocCodeKeywordSpan">renderTemplate</span>(template);
+    var renderedTemplateDest = path.join(this.appDirectory, &#x27;app&#x27;, this.directory, this.fileName, this.fileName + template
+.extension);
+    console.log(&#x27;√ Create&#x27;.blue, path.relative(this.appDirectory, renderedTemplateDest));
+    fs.writeFileSync(renderedTemplateDest, renderedTemplate);
+  }, this);
+}
+
+Generator.prototype.loadTemplates = function() {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generator.prototype.renderTemplates" id="apidoc.element.ionic-framework.generator.prototype.renderTemplates">
+        function <span class="apidocSignatureSpan">ionic-framework.generator.prototype.</span>renderTemplates
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function renderTemplates() {
+  var templates = this.loadTemplates();
+
+  templates.forEach(function(template) {
+    var renderedTemplate = this.renderTemplate(template);
+    var renderedTemplateDest = path.join(this.appDirectory, &#x27;app&#x27;, this.directory, this.fileName, this.fileName + template.extension
+);
+    console.log(&#x27;√ Create&#x27;.blue, path.relative(this.appDirectory, renderedTemplateDest));
+    fs.writeFileSync(renderedTemplateDest, renderedTemplate);
+  }, this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+//templateVars
+this.fileName = _.kebabCase(this.name);
+this.jsClassName = _.capitalize(_.camelCase(this.name));
+}
+
+Generator.prototype.run = function(){
+this.makeDirectories();
+this.<span class="apidocCodeKeywordSpan">renderTemplates</span>();
+}
+
+Generator.prototype.makeDirectories = function(){
+if (!this.directory) {
+  throw new Error(&#x27;Generators must define their directory in their constructor.\nEx: \&#x27;pages\&#x27;, \&#x27;components\&#x27;, etc.&#x27;);
+}
+mkdirp.sync(path.join(this.appDirectory, &#x27;app&#x27;, this.directory, this.fileName));
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.generator.prototype.run" id="apidoc.element.ionic-framework.generator.prototype.run">
+        function <span class="apidocSignatureSpan">ionic-framework.generator.prototype.</span>run
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">run = function (){
+  this.makeDirectories();
+  this.renderTemplates();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+if (!options.generator) {
+  throw new Error(&#x27;No generator passed to generate&#x27;);
+}
+
+var GeneratorType = Generate.loadGenerator(options.generator);
+return new GeneratorType(options).<span class="apidocCodeKeywordSpan">run</span>();
+};
+
+
+Generate.loadGenerator = function loadGenerator(generator) {
+var generateModule;
+try {
+  generateModule = require(path.join(__dirname, &#x27;generators&#x27;, generator));
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ionic-framework.translate" id="apidoc.module.ionic-framework.translate">module ionic-framework.translate</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.translate.Translate" id="apidoc.element.ionic-framework.translate.Translate">
+        function <span class="apidocSignatureSpan">ionic-framework.translate.</span>Translate
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Translate() {
+    this._transMap = {};
+    this._language = {};
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ionic-framework.util" id="apidoc.module.ionic-framework.util">module ionic-framework.util</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.assign" id="apidoc.element.ionic-framework.util.assign">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>assign
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function assign() {
+    var args = [];
+    for (var _i = 0; _i &#x3c; arguments.length; _i++) {
+        args[_i - 0] = arguments[_i];
+    }
+    if (typeof Object.assign !== &#x27;function&#x27;) {
+        // use the old-school shallow extend method
+        return _baseExtend(args[0], [].slice.call(args, 1), false);
+    }
+    // use the built in ES6 Object.assign method
+    return Object.assign.apply(null, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+return Math.max(min, Math.min(n, max));
+}
+exports.clamp = clamp;
+/**
+ * The assign() method is used to copy the values of all enumerable own
+ * properties from one or more source objects to a target object. It will
+ * return the target object. When available, this method will use
+ * `Object.<span class="apidocCodeKeywordSpan">assign</span>()` under-the-hood.
+ * @param target  The target object
+ * @param source(s)  The source object
+ */
+function assign() {
+var args = [];
+for (var _i = 0; _i &#x3c; arguments.length; _i++) {
+    args[_i - 0] = arguments[_i];
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.clamp" id="apidoc.element.ionic-framework.util.clamp">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>clamp
+        <span class="apidocSignatureSpan">(min, n, max)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function clamp(min, n, max) {
+    return Math.max(min, Math.min(n, max));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.debounce" id="apidoc.element.ionic-framework.util.debounce">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>debounce
+        <span class="apidocSignatureSpan">(fn, wait, immediate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function debounce(fn, wait, immediate) {
+    if (immediate === void 0) { immediate = false; }
+    var timeout, args, context, timestamp, result;
+    return function () {
+        context = this;
+        args = arguments;
+        timestamp = Date.now();
+        var later = function () {
+            var last = Date.now() - timestamp;
+            if (last &#x3c; wait) {
+                timeout = setTimeout(later, wait - last);
+            }
+            else {
+                timeout = null;
+                if (!immediate)
+                    result = fn.apply(context, args);
+            }
+        };
+        var callNow = immediate &#x26;&#x26; !timeout;
+        if (!timeout) {
+            timeout = setTimeout(later, wait);
+        }
+        if (callNow)
+            result = fn.apply(context, args);
+        return result;
+    };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.defaults" id="apidoc.element.ionic-framework.util.defaults">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>defaults
+        <span class="apidocSignatureSpan">(dest)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function defaults(dest) {
+    var args = [];
+    for (var _i = 1; _i &#x3c; arguments.length; _i++) {
+        args[_i - 1] = arguments[_i];
+    }
+    for (var i = arguments.length - 1; i &#x3e;= 1; i--) {
+        var source = arguments[i] || {};
+        for (var key in source) {
+            if (source.hasOwnProperty(key) &#x26;&#x26; !dest.hasOwnProperty(key)) {
+                dest[key] = source[key];
+            }
+        }
+    }
+    return dest;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.getQuerystring" id="apidoc.element.ionic-framework.util.getQuerystring">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>getQuerystring
+        <span class="apidocSignatureSpan">(url)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getQuerystring(url) {
+    var queryParams = {};
+    if (url) {
+        var startIndex = url.indexOf(&#x27;?&#x27;);
+        if (startIndex !== -1) {
+            var queries = url.slice(startIndex + 1).split(&#x27;&#x26;&#x27;);
+            queries.forEach(function (param) {
+                var split = param.split(&#x27;=&#x27;);
+                queryParams[split[0].toLowerCase()] = split[1].split(&#x27;#&#x27;)[0];
+            });
+        }
+    }
+    return queryParams;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.isArray" id="apidoc.element.ionic-framework.util.isArray">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>isArray
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isArray() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        continue;
+    var keys = Object.keys(obj);
+    for (var j = 0, jj = keys.length; j &#x3c; jj; j++) {
+        var key = keys[j];
+        var src = obj[key];
+        if (deep &#x26;&#x26; exports.isObject(src)) {
+            if (!exports.isObject(dst[key]))
+                dst[key] = exports.<span class="apidocCodeKeywordSpan">isArray</span>(src) ? [] : {};
+            _baseExtend(dst[key], [src], true);
+        }
+        else {
+            dst[key] = src;
+        }
+    }
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.isBlank" id="apidoc.element.ionic-framework.util.isBlank">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>isBlank
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isBlank = function (val) { return val === undefined || val === null; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.isBoolean" id="apidoc.element.ionic-framework.util.isBoolean">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>isBoolean
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isBoolean = function (val) { return typeof val === &#x27;boolean&#x27;; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.isDefined" id="apidoc.element.ionic-framework.util.isDefined">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>isDefined
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isDefined = function (val) { return typeof val !== &#x27;undefined&#x27;; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.isFunction" id="apidoc.element.ionic-framework.util.isFunction">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>isFunction
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isFunction = function (val) { return typeof val === &#x27;function&#x27;; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+return _baseExtend(dst, [].slice.call(arguments, 1), true);
+}
+exports.merge = merge;
+function _baseExtend(dst, objs, deep) {
+for (var i = 0, ii = objs.length; i &#x3c; ii; ++i) {
+    var obj = objs[i];
+    if (!obj || !exports.isObject(obj) &#x26;&#x26; !exports.<span class="apidocCodeKeywordSpan">isFunction</span>(obj))
+        continue;
+    var keys = Object.keys(obj);
+    for (var j = 0, jj = keys.length; j &#x3c; jj; j++) {
+        var key = keys[j];
+        var src = obj[key];
+        if (deep &#x26;&#x26; exports.isObject(src)) {
+            if (!exports.isObject(dst[key]))
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.isNumber" id="apidoc.element.ionic-framework.util.isNumber">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>isNumber
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isNumber = function (val) { return typeof val === &#x27;number&#x27;; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    for (var i = 0, ii = arr.length; i &#x3c; ii; i++) {
+        if (cb(arr[i], i))
+            return arr[i];
+    }
+},
+remove: function (arr, itemOrIndex) {
+    var index = -1;
+    if (exports.<span class="apidocCodeKeywordSpan">isNumber</span>(itemOrIndex)) {
+        index = itemOrIndex;
+    }
+    else {
+        index = arr.indexOf(itemOrIndex);
+    }
+    if (index &#x3c; 0) {
+        return false;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.isObject" id="apidoc.element.ionic-framework.util.isObject">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>isObject
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isObject = function (val) { return typeof val === &#x27;object&#x27;; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+return _baseExtend(dst, [].slice.call(arguments, 1), true);
+}
+exports.merge = merge;
+function _baseExtend(dst, objs, deep) {
+for (var i = 0, ii = objs.length; i &#x3c; ii; ++i) {
+    var obj = objs[i];
+    if (!obj || !exports.<span class="apidocCodeKeywordSpan">isObject</span>(obj) &#x26;&#x26; !exports.isFunction(obj))
+        continue;
+    var keys = Object.keys(obj);
+    for (var j = 0, jj = keys.length; j &#x3c; jj; j++) {
+        var key = keys[j];
+        var src = obj[key];
+        if (deep &#x26;&#x26; exports.isObject(src)) {
+            if (!exports.isObject(dst[key]))
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.isString" id="apidoc.element.ionic-framework.util.isString">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>isString
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isString = function (val) { return typeof val === &#x27;string&#x27;; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.isTrueProperty" id="apidoc.element.ionic-framework.util.isTrueProperty">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>isTrueProperty
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isTrueProperty = function (val) {
+    if (typeof val === &#x27;string&#x27;) {
+        val = val.toLowerCase().trim();
+        return (val === &#x27;true&#x27; || val === &#x27;on&#x27; || val === &#x27;&#x27;);
+    }
+    return !!val;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.isUndefined" id="apidoc.element.ionic-framework.util.isUndefined">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>isUndefined
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isUndefined = function (val) { return typeof val === &#x27;undefined&#x27;; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.merge" id="apidoc.element.ionic-framework.util.merge">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>merge
+        <span class="apidocSignatureSpan">(dst)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function merge(dst) {
+    var args = [];
+    for (var _i = 1; _i &#x3c; arguments.length; _i++) {
+        args[_i - 1] = arguments[_i];
+    }
+    return _baseExtend(dst, [].slice.call(arguments, 1), true);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.nextUid" id="apidoc.element.ionic-framework.util.nextUid">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>nextUid
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function nextUid() {
+    return ++uid;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.pascalCaseToDashCase" id="apidoc.element.ionic-framework.util.pascalCaseToDashCase">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>pascalCaseToDashCase
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function pascalCaseToDashCase(val) {
+    if (val === void 0) { val = &#x27;&#x27;; }
+    return val.charAt(0).toLowerCase() + val.substring(1).replace(/[A-Z]/g, function (match) {
+        return &#x27;-&#x27; + match.toLowerCase();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ionic-framework.util.throttle" id="apidoc.element.ionic-framework.util.throttle">
+        function <span class="apidocSignatureSpan">ionic-framework.util.</span>throttle
+        <span class="apidocSignatureSpan">(fn, wait, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function throttle(fn, wait, options) {
+    var context, args, result;
+    var timeout = null;
+    var previous = 0;
+    options || (options = {});
+    var later = function () {
+        previous = options.leading === false ? 0 : Date.now();
+        timeout = null;
+        result = fn.apply(context, args);
+    };
+    return function () {
+        var now = Date.now();
+        if (!previous &#x26;&#x26; options.leading === false)
+            previous = now;
+        var remaining = wait - (now - previous);
+        context = this;
+        args = arguments;
+        if (remaining &#x3c;= 0) {
+            clearTimeout(timeout);
+            timeout = null;
+            previous = now;
+            result = fn.apply(context, args);
+        }
+        else if (!timeout &#x26;&#x26; options.trailing !== false) {
+            timeout = setTimeout(later, remaining);
+        }
+        return result;
+    };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
