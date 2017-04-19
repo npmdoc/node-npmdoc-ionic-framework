@@ -517,7 +517,23 @@
     <li>description and source-code<pre class="apidocCodePre">function ClickBlock() {
     this._enabled = false;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	        config = new config_1.Config(config);
+	    }
+	    platform.setUrl(window.location.href);
+	    platform.setUserAgent(window.navigator.userAgent);
+	    platform.setNavigatorPlatform(window.navigator.platform);
+	    platform.load();
+	    config.setPlatform(platform);
+	    var clickBlock = new click_block_1.<span class="apidocCodeKeywordSpan">ClickBlock</span>();
+	    var events = new events_1.Events();
+	    var featureDetect = new feature_detect_1.FeatureDetect();
+	    setupDom(window, document, config, platform, clickBlock, featureDetect);
+	    bindEvents(window, document, platform, events);
+	    // prepare the ready promise to fire....when ready
+	    platform.prepareReady(config);
+	    return [
+...</pre></li>
     </ul>
 
 
@@ -537,7 +553,23 @@
     <li>description and source-code<pre class="apidocCodePre">function Events() {
     this._channels = [];
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	    }
+	    platform.setUrl(window.location.href);
+	    platform.setUserAgent(window.navigator.userAgent);
+	    platform.setNavigatorPlatform(window.navigator.platform);
+	    platform.load();
+	    config.setPlatform(platform);
+	    var clickBlock = new click_block_1.ClickBlock();
+	    var events = new events_1.<span class="apidocCodeKeywordSpan">Events</span>();
+	    var featureDetect = new feature_detect_1.FeatureDetect();
+	    setupDom(window, document, config, platform, clickBlock, featureDetect);
+	    bindEvents(window, document, platform, events);
+	    // prepare the ready promise to fire....when ready
+	    platform.prepareReady(config);
+	    return [
+	        app_1.IonicApp,
+...</pre></li>
     </ul>
 
 
@@ -557,7 +589,23 @@
     <li>description and source-code<pre class="apidocCodePre">function FeatureDetect() {
     this._results = {};
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	    platform.setUrl(window.location.href);
+	    platform.setUserAgent(window.navigator.userAgent);
+	    platform.setNavigatorPlatform(window.navigator.platform);
+	    platform.load();
+	    config.setPlatform(platform);
+	    var clickBlock = new click_block_1.ClickBlock();
+	    var events = new events_1.Events();
+	    var featureDetect = new feature_detect_1.<span class="apidocCodeKeywordSpan">FeatureDetect</span>();
+	    setupDom(window, document, config, platform, clickBlock, featureDetect);
+	    bindEvents(window, document, platform, events);
+	    // prepare the ready promise to fire....when ready
+	    platform.prepareReady(config);
+	    return [
+	        app_1.IonicApp,
+	        core_1.provide(click_block_1.ClickBlock, { useValue: clickBlock }),
+...</pre></li>
     </ul>
 
 
@@ -586,7 +634,23 @@
   var GeneratorType = Generate.loadGenerator(options.generator);
   return new GeneratorType(options).run();
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	        // only do an update if there&#x27;s an actual view change
+	        if (!viewCtrl)
+	            return;
+	        // get the best PathRecognizer for this view&#x27;s componentType
+	        var pathRecognizer = this.getPathRecognizerByComponent(viewCtrl.componentType);
+	        if (pathRecognizer) {
+	            // generate a componentInstruction from the view&#x27;s PathRecognizer and params
+	            var componentInstruction = pathRecognizer.<span class="apidocCodeKeywordSpan">generate</span>(viewCtrl.data);
+	            // create a ResolvedInstruction from the componentInstruction
+	            var instruction = new ResolvedInstruction(componentInstruction, null, null);
+	            if (instruction) {
+	                var url = instruction.toRootUrl();
+	                if (url === this._lastUrl)
+	                    return;
+	                this._lastUrl = url;
+...</pre></li>
     </ul>
 
 
@@ -888,21 +952,21 @@ mkdirp.sync(path.join(this.appDirectory, &#x27;app&#x27;, this.directory, this.f
   this.renderTemplates();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-}
-
-if (!options.generator) {
-  throw new Error(&#x27;No generator passed to generate&#x27;);
-}
-
-var GeneratorType = Generate.loadGenerator(options.generator);
-return new GeneratorType(options).<span class="apidocCodeKeywordSpan">run</span>();
-};
-
-
-Generate.loadGenerator = function loadGenerator(generator) {
-var generateModule;
-try {
-  generateModule = require(path.join(__dirname, &#x27;generators&#x27;, generator));
+	    if (config.get(&#x27;hoverCSS&#x27;) !== false) {
+	        bodyEle.classList.add(&#x27;enable-hover&#x27;);
+	    }
+	    if (config.get(&#x27;clickBlock&#x27;)) {
+	        clickBlock.enable();
+	    }
+	    // run feature detection tests
+	    featureDetect.<span class="apidocCodeKeywordSpan">run</span>(window, document);
+	}
+	/**
+	 * Bind some global events and publish on the &#x27;app&#x27; channel
+	 */
+	function bindEvents(window, document, platform, events) {
+	    window.addEventListener(&#x27;online&#x27;, function (ev) {
+	        events.publish(&#x27;app:online&#x27;, ev);
 ...</pre></li>
     </ul>
 
@@ -954,21 +1018,21 @@ try {
     return Object.assign.apply(null, args);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-return Math.max(min, Math.min(n, max));
+    this._rv = false;
+    this._lastUpd = 0;
+    this.isPlaying = false;
+    this.hasTween = false;
+    this.hasCompleted = false;
+    this._reset();
+    this.element(ele);
+    this._opts = util_1.<span class="apidocCodeKeywordSpan">assign</span>({
+        renderDelay: 24
+    }, opts);
 }
-exports.clamp = clamp;
-/**
- * The assign() method is used to copy the values of all enumerable own
- * properties from one or more source objects to a target object. It will
- * return the target object. When available, this method will use
- * `Object.<span class="apidocCodeKeywordSpan">assign</span>()` under-the-hood.
- * @param target  The target object
- * @param source(s)  The source object
- */
-function assign() {
-var args = [];
-for (var _i = 0; _i &#x3c; arguments.length; _i++) {
-    args[_i - 0] = arguments[_i];
+Animation.prototype._reset = function () {
+    this._el = [];
+    this._c = [];
+    this._fx = {};
 ...</pre></li>
     </ul>
 
@@ -984,7 +1048,24 @@ for (var _i = 0; _i &#x3c; arguments.length; _i++) {
     <li>description and source-code<pre class="apidocCodePre">function clamp(min, n, max) {
     return Math.max(min, Math.min(n, max));
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	        return true;
+	    };
+	    SlideGesture.prototype.onDrag = function (ev) {
+	        if (!this.slide || !this.slide.started) {
+	            return false;
+	        }
+	        this.slide.pos = ev.center[this.direction];
+	        this.slide.distance = util_1.<span class="apidocCodeKeywordSpan">clamp</span>(this.slide.min, this.slide.pos - this.slide
+.pointerStartPos + this.slide.elementStartPos, this.slide.max);
+	        this.slide.delta = this.slide.pos - this.slide.pointerStartPos;
+	        this.onSlide(this.slide, ev);
+	        return true;
+	    };
+	    SlideGesture.prototype.onDragEnd = function (ev) {
+	        if (!this.slide || !this.slide.started)
+	            return;
+...</pre></li>
     </ul>
 
 
@@ -1023,7 +1104,23 @@ for (var _i = 0; _i &#x3c; arguments.length; _i++) {
         return result;
     };
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	         * @output {any} expression to evaluate when a slide change starts
+	         */
+	        this.slideChangeStart = new core_1.EventEmitter();
+	        /**
+	         * @output {any} expression to evaluate when a slide moves
+	         */
+	        this.move = new core_1.EventEmitter();
+	        this.rapidUpdate = util_2.<span class="apidocCodeKeywordSpan">debounce</span>(function () {
+	            _this.update();
+	        }, 10);
+	    }
+	    /**
+	     * @private
+	     */
+	    Slides.prototype.ngOnInit = function () {
+...</pre></li>
     </ul>
 
 
@@ -1050,7 +1147,23 @@ for (var _i = 0; _i &#x3c; arguments.length; _i++) {
     }
     return dest;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	var slide_gesture_1 = __webpack_require__(31);
+	var util_1 = __webpack_require__(9);
+	var dom_1 = __webpack_require__(10);
+	var SlideEdgeGesture = (function (_super) {
+	    __extends(SlideEdgeGesture, _super);
+	    function SlideEdgeGesture(element, opts) {
+	        if (opts === void 0) { opts = {}; }
+	        util_1.<span class="apidocCodeKeywordSpan">defaults</span>(opts, {
+	            edge: &#x27;left&#x27;,
+	            maxEdgeStart: 50
+	        });
+	        _super.call(this, element, opts);
+	        // Can check corners through use of eg &#x27;left top&#x27;
+	        this.edges = opts.edge.split(&#x27; &#x27;);
+	        this.maxEdgeStart = opts.maxEdgeStart;
+...</pre></li>
     </ul>
 
 
@@ -1076,7 +1189,23 @@ for (var _i = 0; _i &#x3c; arguments.length; _i++) {
     }
     return queryParams;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	    // Getter/Setter Methods
+	    // **********************************************
+	    /**
+	    * @private
+	    */
+	    Platform.prototype.setUrl = function (url) {
+	        this._url = url;
+	        this._qs = util_1.<span class="apidocCodeKeywordSpan">getQuerystring</span>(url);
+	    };
+	    /**
+	    * @private
+	    */
+	    Platform.prototype.url = function () {
+	        return this._url;
+	    };
+...</pre></li>
     </ul>
 
 
@@ -1090,21 +1219,21 @@ for (var _i = 0; _i &#x3c; arguments.length; _i++) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isArray() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-        continue;
-    var keys = Object.keys(obj);
-    for (var j = 0, jj = keys.length; j &#x3c; jj; j++) {
-        var key = keys[j];
-        var src = obj[key];
-        if (deep &#x26;&#x26; exports.isObject(src)) {
-            if (!exports.isObject(dst[key]))
-                dst[key] = exports.<span class="apidocCodeKeywordSpan">isArray</span>(src) ? [] : {};
-            _baseExtend(dst[key], [src], true);
+    this._pFns = [];
+    this._fFns = [];
+    this._fOnceFns = [];
+};
+Animation.prototype.element = function (ele) {
+    var i;
+    if (ele) {
+        if (Array.<span class="apidocCodeKeywordSpan">isArray</span>(ele)) {
+            for (i = 0; i &#x3c; ele.length; i++) {
+                this._addEle(ele[i]);
+            }
         }
-        else {
-            dst[key] = src;
-        }
-    }
-}
+        else if (typeof ele === &#x27;string&#x27;) {
+            ele = document.querySelectorAll(ele);
+            for (i = 0; i &#x3c; ele.length; i++) {
 ...</pre></li>
     </ul>
 
@@ -1118,7 +1247,23 @@ for (var _i = 0; _i &#x3c; arguments.length; _i++) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isBlank = function (val) { return val === undefined || val === null; }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	        configurable: true
+	    });
+	    /**
+	     * @private
+	     */
+	    Select.prototype.writeValue = function (val) {
+	        void 0;
+	        this._values = (Array.isArray(val) ? val : util_1.<span class="apidocCodeKeywordSpan">isBlank</span>(val) ? [] : [val]);
+	        this._updOpts();
+	    };
+	    /**
+	     * @private
+	     */
+	    Select.prototype.ngAfterContentInit = function () {
+	        this._updOpts();
+...</pre></li>
     </ul>
 
 
@@ -1144,7 +1289,23 @@ for (var _i = 0; _i &#x3c; arguments.length; _i++) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isDefined = function (val) { return typeof val !== &#x27;undefined&#x27;; }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    enumerable: true,
+    configurable: true
+});
+Animation.prototype.play = function (opts) {
+    if (opts === void 0) { opts = {}; }
+    var self = this;
+    var i;
+    var duration = util_1.<span class="apidocCodeKeywordSpan">isDefined</span>(opts.duration) ? opts.duration : self._dur;
+    void 0;
+    // always default that an animation does not tween
+    // a tween requires that an Animation class has an element
+    // and that it has at least one FROM/TO effect
+    // and that the FROM/TO effect can tween numeric values
+    self.hasTween = false;
+    self.hasCompleted = false;
+...</pre></li>
     </ul>
 
 
@@ -1158,21 +1319,21 @@ for (var _i = 0; _i &#x3c; arguments.length; _i++) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isFunction = function (val) { return typeof val === &#x27;function&#x27;; }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-}
-return _baseExtend(dst, [].slice.call(arguments, 1), true);
-}
-exports.merge = merge;
-function _baseExtend(dst, objs, deep) {
-for (var i = 0, ii = objs.length; i &#x3c; ii; ++i) {
-    var obj = objs[i];
-    if (!obj || !exports.isObject(obj) &#x26;&#x26; !exports.<span class="apidocCodeKeywordSpan">isFunction</span>(obj))
-        continue;
-    var keys = Object.keys(obj);
-    for (var j = 0, jj = keys.length; j &#x3c; jj; j++) {
-        var key = keys[j];
-        var src = obj[key];
-        if (deep &#x26;&#x26; exports.isObject(src)) {
-            if (!exports.isObject(dst[key]))
+	        }
+	        // return key&#x27;s value
+	        // either it came directly from the user config
+	        // or it was from the users platform configs
+	        // or it was from the default platform configs
+	        // in that order
+	        var rtnVal;
+	        if (util_1.<span class="apidocCodeKeywordSpan">isFunction</span>(this._c[key])) {
+	            rtnVal = this._c[key](this.platform);
+	        }
+	        else {
+	            rtnVal = this._c[key];
+	        }
+	        return (rtnVal !== null ? rtnVal : fallbackValue);
+	    };
 ...</pre></li>
     </ul>
 
@@ -1187,21 +1348,21 @@ for (var i = 0, ii = objs.length; i &#x3c; ii; ++i) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isNumber = function (val) { return typeof val === &#x27;number&#x27;; }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    for (var i = 0, ii = arr.length; i &#x3c; ii; i++) {
-        if (cb(arr[i], i))
-            return arr[i];
-    }
-},
-remove: function (arr, itemOrIndex) {
-    var index = -1;
-    if (exports.<span class="apidocCodeKeywordSpan">isNumber</span>(itemOrIndex)) {
-        index = itemOrIndex;
-    }
-    else {
-        index = arr.indexOf(itemOrIndex);
-    }
-    if (index &#x3c; 0) {
-        return false;
+	        for (var i = 0, ii = arr.length; i &#x3c; ii; i++) {
+	            if (cb(arr[i], i))
+	                return arr[i];
+	        }
+	    },
+	    remove: function (arr, itemOrIndex) {
+	        var index = -1;
+	        if (exports.<span class="apidocCodeKeywordSpan">isNumber</span>(itemOrIndex)) {
+	            index = itemOrIndex;
+	        }
+	        else {
+	            index = arr.indexOf(itemOrIndex);
+	        }
+	        if (index &#x3c; 0) {
+	            return false;
 ...</pre></li>
     </ul>
 
@@ -1216,21 +1377,22 @@ remove: function (arr, itemOrIndex) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isObject = function (val) { return typeof val === &#x27;object&#x27;; }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-}
-return _baseExtend(dst, [].slice.call(arguments, 1), true);
-}
-exports.merge = merge;
-function _baseExtend(dst, objs, deep) {
-for (var i = 0, ii = objs.length; i &#x3c; ii; ++i) {
-    var obj = objs[i];
-    if (!obj || !exports.<span class="apidocCodeKeywordSpan">isObject</span>(obj) &#x26;&#x26; !exports.isFunction(obj))
-        continue;
-    var keys = Object.keys(obj);
-    for (var j = 0, jj = keys.length; j &#x3c; jj; j++) {
-        var key = keys[j];
-        var src = obj[key];
-        if (deep &#x26;&#x26; exports.isObject(src)) {
-            if (!exports.isObject(dst[key]))
+	 * | tabSubPages                |                        | true                      |
+	 *
+	**/
+	var Config = (function () {
+	    function Config(config) {
+	        this._c = {};
+	        this._s = {};
+	        this._s = config &#x26;&#x26; util_1.<span class="apidocCodeKeywordSpan">isObject</span>(config) &#x26;&#x26; !util_1.isArray
+(config) ? config : {};
+	    }
+	    /**
+	     * @name get
+	     * @description
+	     * Returns a single config value, given a key.
+	     *
+	     * @param {string} [key] - the key for the config value
 ...</pre></li>
     </ul>
 
@@ -1263,7 +1425,23 @@ for (var i = 0, ii = objs.length; i &#x3c; ii; ++i) {
     }
     return !!val;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	        /**
+	         * @private
+	         */
+	        get: function () {
+	            return this._isEnabled;
+	        },
+	        set: function (val) {
+	            this._isEnabled = util_1.<span class="apidocCodeKeywordSpan">isTrueProperty</span>(val);
+	            this._setListeners();
+	        },
+	        enumerable: true,
+	        configurable: true
+	    });
+	    Object.defineProperty(Menu.prototype, &#x22;swipeEnabled&#x22;, {
+	        /**
+...</pre></li>
     </ul>
 
 
@@ -1276,7 +1454,23 @@ for (var i = 0, ii = objs.length; i &#x3c; ii; ++i) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isUndefined = function (val) { return typeof val === &#x27;undefined&#x27;; }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	        // get the index of the active view
+	        // which will become the view to be leaving
+	        var activeView = this.getByState(STATE_TRANS_ENTER) ||
+	            this.getByState(STATE_INIT_ENTER) ||
+	            this.getActive();
+	        // if not set, by default climb up the nav controllers if
+	        // there isn&#x27;t a previous view in this nav controller
+	        if (util_1.<span class="apidocCodeKeywordSpan">isUndefined</span>(opts.climbNav)) {
+	            opts.climbNav = true;
+	        }
+	        return this.remove(this.indexOf(activeView), 1, opts);
+	    };
+	    /**
+	     * Similar to `pop()`, this method let&#x27;s you navigate back to the root of the stack, no matter how many views that is
+	     * @param {object} [opts={}] Any options you want to use pass to transtion
+...</pre></li>
     </ul>
 
 
@@ -1295,7 +1489,23 @@ for (var i = 0, ii = objs.length; i &#x3c; ii; ++i) {
     }
     return _baseExtend(dst, [].slice.call(arguments, 1), true);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	        var _this = this;
+	        ev.preventDefault();
+	        ev.stopPropagation();
+	        if (this._disabled)
+	            return;
+	        void 0;
+	        // the user may have assigned some options specifically for the alert
+	        var alertOptions = util_1.<span class="apidocCodeKeywordSpan">merge</span>({}, this.alertOptions);
+	        // make sure their buttons array is removed from the options
+	        // and we create a new array for the alert&#x27;s two buttons
+	        alertOptions.buttons = [{
+	                text: this.cancelText,
+	                handler: function () {
+	                    _this.cancel.emit(null);
+	                }
+...</pre></li>
     </ul>
 
 
@@ -1328,7 +1538,24 @@ for (var i = 0, ii = objs.length; i &#x3c; ii; ++i) {
         return &#x27;-&#x27; + match.toLowerCase();
     });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	                location = _this._viewManager.getNamedElementInComponentView(location, _this._anchorName);
+	            }
+	            var viewContainer = _this._viewManager.getViewContainer(location);
+	            var hostViewRef = viewContainer.createHostView(hostProtoViewRef, viewContainer.length, providers);
+	            var pageElementRef = _this._viewManager.getHostElement(hostViewRef);
+	            var component = _this._viewManager.getComponent(pageElementRef);
+	            // auto-add page css className created from component JS class name
+	            var cssClassName = util_1.<span class="apidocCodeKeywordSpan">pascalCaseToDashCase</span>(view.componentType[&#x27;
+name&#x27;]);
+	            _this._renderer.setElementClass(pageElementRef.nativeElement, cssClassName, true);
+	            view.addDestroy(function () {
+	                // ensure the element is cleaned up for when the view pool reuses this element
+	                _this._renderer.setElementAttribute(pageElementRef.nativeElement, &#x27;class&#x27;, null);
+	                _this._renderer.setElementAttribute(pageElementRef.nativeElement, &#x27;style&#x27;, null);
+	                // remove the page from its container
+	                var index = viewContainer.indexOf(hostViewRef);
+...</pre></li>
     </ul>
 
 

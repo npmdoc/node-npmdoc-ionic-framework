@@ -1,338 +1,338 @@
 <svg height="5358" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="5358" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-07 03:47:33 +0000  5398792 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-07 03:47:33 +0000     1696 byte  README.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-07 03:47:33 +0000     2902 byte  animations/animation.d.ts</tspan>
-<tspan x="10" y="74">  3.  2017-04-07 03:47:33 +0000    24869 byte  animations/animation.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-07 03:47:33 +0000        0 byte  animations/builtins.d.ts</tspan>
-<tspan x="10" y="106">  5.  2017-04-07 03:47:33 +0000     1715 byte  animations/builtins.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-07 03:47:33 +0000      226 byte  animations/scroll-to.d.ts</tspan>
-<tspan x="10" y="138">  7.  2017-04-07 03:47:33 +0000     3054 byte  animations/scroll-to.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-07 03:47:33 +0000   283872 byte  bundles/ionic.css</tspan>
-<tspan x="10" y="170">  9.  2017-04-07 03:47:33 +0000   159588 byte  bundles/ionic.ios.css</tspan>
-<tspan x="10" y="186"> 10.  2017-04-07 03:47:33 +0000   126533 byte  bundles/ionic.ios.min.css</tspan>
-<tspan x="10" y="202"> 11.  2017-04-07 03:47:33 +0000   897991 byte  bundles/ionic.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-07 03:47:33 +0000   195823 byte  bundles/ionic.md.css</tspan>
-<tspan x="10" y="234"> 13.  2017-04-07 03:47:33 +0000   155419 byte  bundles/ionic.md.min.css</tspan>
-<tspan x="10" y="250"> 14.  2017-04-07 03:47:33 +0000   219175 byte  bundles/ionic.min.css</tspan>
-<tspan x="10" y="266"> 15.  2017-04-07 03:47:33 +0000   304721 byte  bundles/ionic.min.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-07 03:47:33 +0000  1225738 byte  bundles/ionic.system.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-07 03:47:33 +0000      626 byte  components.core.scss</tspan>
-<tspan x="10" y="314"> 18.  2017-04-07 03:47:33 +0000     2123 byte  components.d.ts</tspan>
-<tspan x="10" y="330"> 19.  2017-04-07 03:47:33 +0000      859 byte  components.ios.scss</tspan>
-<tspan x="10" y="346"> 20.  2017-04-07 03:47:33 +0000     2450 byte  components.js</tspan>
-<tspan x="10" y="362"> 21.  2017-04-07 03:47:33 +0000      802 byte  components.md.scss</tspan>
-<tspan x="10" y="378"> 22.  2017-04-07 03:47:33 +0000     5468 byte  components/action-sheet/action-sheet.d.ts</tspan>
-<tspan x="10" y="394"> 23.  2017-04-07 03:47:33 +0000     2650 byte  components/action-sheet/action-sheet.ios.scss</tspan>
-<tspan x="10" y="410"> 24.  2017-04-07 03:47:33 +0000    15590 byte  components/action-sheet/action-sheet.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-07 03:47:33 +0000     2026 byte  components/action-sheet/action-sheet.md.scss</tspan>
-<tspan x="10" y="442"> 26.  2017-04-07 03:47:33 +0000      804 byte  components/action-sheet/action-sheet.scss</tspan>
-<tspan x="10" y="458"> 27.  2017-04-07 03:47:33 +0000     4508 byte  components/alert/alert.d.ts</tspan>
-<tspan x="10" y="474"> 28.  2017-04-07 03:47:33 +0000     7425 byte  components/alert/alert.ios.scss</tspan>
-<tspan x="10" y="490"> 29.  2017-04-07 03:47:33 +0000    18905 byte  components/alert/alert.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-07 03:47:33 +0000     5844 byte  components/alert/alert.md.scss</tspan>
-<tspan x="10" y="522"> 31.  2017-04-07 03:47:33 +0000     1321 byte  components/alert/alert.scss</tspan>
-<tspan x="10" y="538"> 32.  2017-04-07 03:47:33 +0000     2970 byte  components/app/app.d.ts</tspan>
-<tspan x="10" y="554"> 33.  2017-04-07 03:47:33 +0000      551 byte  components/app/app.ios.scss</tspan>
-<tspan x="10" y="570"> 34.  2017-04-07 03:47:33 +0000     5360 byte  components/app/app.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-07 03:47:33 +0000      509 byte  components/app/app.md.scss</tspan>
-<tspan x="10" y="602"> 36.  2017-04-07 03:47:33 +0000     1770 byte  components/app/id.d.ts</tspan>
-<tspan x="10" y="618"> 37.  2017-04-07 03:47:33 +0000     3515 byte  components/app/id.js</tspan>
-<tspan x="10" y="634"> 38.  2017-04-07 03:47:33 +0000     4174 byte  components/app/normalize.scss</tspan>
-<tspan x="10" y="650"> 39.  2017-04-07 03:47:33 +0000      615 byte  components/app/scrollbars.scss</tspan>
-<tspan x="10" y="666"> 40.  2017-04-07 03:47:33 +0000     3355 byte  components/app/structure.scss</tspan>
-<tspan x="10" y="682"> 41.  2017-04-07 03:47:33 +0000     2082 byte  components/app/typography.scss</tspan>
-<tspan x="10" y="698"> 42.  2017-04-07 03:47:33 +0000      683 byte  components/badge/badge.d.ts</tspan>
-<tspan x="10" y="714"> 43.  2017-04-07 03:47:33 +0000      625 byte  components/badge/badge.ios.scss</tspan>
-<tspan x="10" y="730"> 44.  2017-04-07 03:47:33 +0000     2333 byte  components/badge/badge.js</tspan>
-<tspan x="10" y="746"> 45.  2017-04-07 03:47:33 +0000      639 byte  components/badge/badge.md.scss</tspan>
-<tspan x="10" y="762"> 46.  2017-04-07 03:47:33 +0000      471 byte  components/badge/badge.scss</tspan>
-<tspan x="10" y="778"> 47.  2017-04-07 03:47:33 +0000      473 byte  components/blur/blur.d.ts</tspan>
-<tspan x="10" y="794"> 48.  2017-04-07 03:47:33 +0000     1552 byte  components/blur/blur.js</tspan>
-<tspan x="10" y="810"> 49.  2017-04-07 03:47:33 +0000      738 byte  components/button/button-fab.scss</tspan>
-<tspan x="10" y="826"> 50.  2017-04-07 03:47:33 +0000      512 byte  components/button/button-icon.scss</tspan>
-<tspan x="10" y="842"> 51.  2017-04-07 03:47:33 +0000     2439 byte  components/button/button.d.ts</tspan>
-<tspan x="10" y="858"> 52.  2017-04-07 03:47:33 +0000     5096 byte  components/button/button.ios.scss</tspan>
-<tspan x="10" y="874"> 53.  2017-04-07 03:47:33 +0000     8924 byte  components/button/button.js</tspan>
-<tspan x="10" y="890"> 54.  2017-04-07 03:47:33 +0000     7898 byte  components/button/button.md.scss</tspan>
-<tspan x="10" y="906"> 55.  2017-04-07 03:47:33 +0000     1642 byte  components/button/button.scss</tspan>
-<tspan x="10" y="922"> 56.  2017-04-07 03:47:33 +0000     3120 byte  components/card/card.ios.scss</tspan>
-<tspan x="10" y="938"> 57.  2017-04-07 03:47:33 +0000     3410 byte  components/card/card.md.scss</tspan>
-<tspan x="10" y="954"> 58.  2017-04-07 03:47:33 +0000      551 byte  components/card/card.scss</tspan>
-<tspan x="10" y="970"> 59.  2017-04-07 03:47:33 +0000     2157 byte  components/checkbox/checkbox.d.ts</tspan>
-<tspan x="10" y="986"> 60.  2017-04-07 03:47:33 +0000     3094 byte  components/checkbox/checkbox.ios.scss</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-07 03:47:33 +0000     6805 byte  components/checkbox/checkbox.js</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-07 03:47:33 +0000     3867 byte  components/checkbox/checkbox.md.scss</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-07 03:47:33 +0000      408 byte  components/chip/chip.ios.scss</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-07 03:47:33 +0000      408 byte  components/chip/chip.md.scss</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-07 03:47:33 +0000     1231 byte  components/chip/chip.scss</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-07 03:47:33 +0000     6432 byte  components/content/content.d.ts</tspan>
-<tspan x="10" y="1098"> 67.  2017-04-07 03:47:33 +0000      357 byte  components/content/content.ios.scss</tspan>
-<tspan x="10" y="1114"> 68.  2017-04-07 03:47:33 +0000    12093 byte  components/content/content.js</tspan>
-<tspan x="10" y="1130"> 69.  2017-04-07 03:47:33 +0000      725 byte  components/content/content.md.scss</tspan>
-<tspan x="10" y="1146"> 70.  2017-04-07 03:47:33 +0000     3670 byte  components/grid/grid.scss</tspan>
-<tspan x="10" y="1162"> 71.  2017-04-07 03:47:33 +0000     2489 byte  components/icon/icon.d.ts</tspan>
-<tspan x="10" y="1178"> 72.  2017-04-07 03:47:33 +0000     6724 byte  components/icon/icon.js</tspan>
-<tspan x="10" y="1194"> 73.  2017-04-07 03:47:33 +0000      194 byte  components/icon/icon.scss</tspan>
-<tspan x="10" y="1210"> 74.  2017-04-07 03:47:33 +0000      533 byte  components/infinite-scroll/infinite-scroll-conten\</tspan>
-<tspan x="10" y="1226">t.d.ts</tspan>
-<tspan x="10" y="1242"> 75.  2017-04-07 03:47:33 +0000     2577 byte  components/infinite-scroll/infinite-scroll-conten\</tspan>
-<tspan x="10" y="1258">t.js</tspan>
-<tspan x="10" y="1274"> 76.  2017-04-07 03:47:33 +0000     4989 byte  components/infinite-scroll/infinite-scroll.d.ts</tspan>
-<tspan x="10" y="1290"> 77.  2017-04-07 03:47:33 +0000     9543 byte  components/infinite-scroll/infinite-scroll.js</tspan>
-<tspan x="10" y="1306"> 78.  2017-04-07 03:47:33 +0000      951 byte  components/infinite-scroll/infinite-scroll.scss</tspan>
-<tspan x="10" y="1322"> 79.  2017-04-07 03:47:33 +0000     3684 byte  components/input/input-base.d.ts</tspan>
-<tspan x="10" y="1338"> 80.  2017-04-07 03:47:33 +0000    22696 byte  components/input/input-base.js</tspan>
-<tspan x="10" y="1354"> 81.  2017-04-07 03:47:33 +0000     3444 byte  components/input/input.d.ts</tspan>
-<tspan x="10" y="1370"> 82.  2017-04-07 03:47:33 +0000     2134 byte  components/input/input.ios.scss</tspan>
-<tspan x="10" y="1386"> 83.  2017-04-07 03:47:33 +0000     7435 byte  components/input/input.js</tspan>
-<tspan x="10" y="1402"> 84.  2017-04-07 03:47:33 +0000     2993 byte  components/input/input.md.scss</tspan>
-<tspan x="10" y="1418"> 85.  2017-04-07 03:47:33 +0000     2367 byte  components/input/input.scss</tspan>
-<tspan x="10" y="1434"> 86.  2017-04-07 03:47:33 +0000     1133 byte  components/input/native-input.d.ts</tspan>
-<tspan x="10" y="1450"> 87.  2017-04-07 03:47:33 +0000     7003 byte  components/input/native-input.js</tspan>
-<tspan x="10" y="1466"> 88.  2017-04-07 03:47:33 +0000      624 byte  components/ion.d.ts</tspan>
-<tspan x="10" y="1482"> 89.  2017-04-07 03:47:33 +0000     1096 byte  components/ion.js</tspan>
-<tspan x="10" y="1498"> 90.  2017-04-07 03:47:33 +0000      829 byte  components/item/item-media.scss</tspan>
-<tspan x="10" y="1514"> 91.  2017-04-07 03:47:33 +0000      785 byte  components/item/item-sliding-gesture.d.ts</tspan>
-<tspan x="10" y="1530"> 92.  2017-04-07 03:47:33 +0000     8268 byte  components/item/item-sliding-gesture.js</tspan>
-<tspan x="10" y="1546"> 93.  2017-04-07 03:47:33 +0000      917 byte  components/item/item-sliding.d.ts</tspan>
-<tspan x="10" y="1562"> 94.  2017-04-07 03:47:33 +0000     2471 byte  components/item/item-sliding.js</tspan>
-<tspan x="10" y="1578"> 95.  2017-04-07 03:47:33 +0000     1144 byte  components/item/item-sliding.scss</tspan>
-<tspan x="10" y="1594"> 96.  2017-04-07 03:47:33 +0000     2057 byte  components/item/item.d.ts</tspan>
-<tspan x="10" y="1610"> 97.  2017-04-07 03:47:33 +0000     4742 byte  components/item/item.ios.scss</tspan>
-<tspan x="10" y="1626"> 98.  2017-04-07 03:47:33 +0000     6598 byte  components/item/item.js</tspan>
-<tspan x="10" y="1642"> 99.  2017-04-07 03:47:33 +0000     3854 byte  components/item/item.md.scss</tspan>
-<tspan x="10" y="1658">100.  2017-04-07 03:47:33 +0000     1069 byte  components/item/item.scss</tspan>
-<tspan x="10" y="1674">101.  2017-04-07 03:47:33 +0000     1715 byte  components/label/label.d.ts</tspan>
-<tspan x="10" y="1690">102.  2017-04-07 03:47:33 +0000     1327 byte  components/label/label.ios.scss</tspan>
-<tspan x="10" y="1706">103.  2017-04-07 03:47:33 +0000     3953 byte  components/label/label.js</tspan>
-<tspan x="10" y="1722">104.  2017-04-07 03:47:33 +0000     1628 byte  components/label/label.md.scss</tspan>
-<tspan x="10" y="1738">105.  2017-04-07 03:47:33 +0000      849 byte  components/label/label.scss</tspan>
-<tspan x="10" y="1754">106.  2017-04-07 03:47:33 +0000     2210 byte  components/list/list.d.ts</tspan>
-<tspan x="10" y="1770">107.  2017-04-07 03:47:33 +0000     3892 byte  components/list/list.ios.scss</tspan>
-<tspan x="10" y="1786">108.  2017-04-07 03:47:33 +0000     5062 byte  components/list/list.js</tspan>
-<tspan x="10" y="1802">109.  2017-04-07 03:47:33 +0000     3193 byte  components/list/list.md.scss</tspan>
-<tspan x="10" y="1818">110.  2017-04-07 03:47:33 +0000      355 byte  components/list/list.scss</tspan>
-<tspan x="10" y="1834">111.  2017-04-07 03:47:33 +0000      766 byte  components/menu/menu-close.d.ts</tspan>
-<tspan x="10" y="1850">112.  2017-04-07 03:47:33 +0000     2255 byte  components/menu/menu-close.js</tspan>
-<tspan x="10" y="1866">113.  2017-04-07 03:47:33 +0000     8029 byte  components/menu/menu-controller.d.ts</tspan>
-<tspan x="10" y="1882">114.  2017-04-07 03:47:33 +0000    10727 byte  components/menu/menu-controller.js</tspan>
-<tspan x="10" y="1898">115.  2017-04-07 03:47:33 +0000      881 byte  components/menu/menu-gestures.d.ts</tspan>
-<tspan x="10" y="1914">116.  2017-04-07 03:47:33 +0000     4178 byte  components/menu/menu-gestures.js</tspan>
-<tspan x="10" y="1930">117.  2017-04-07 03:47:33 +0000     1143 byte  components/menu/menu-toggle.d.ts</tspan>
-<tspan x="10" y="1946">118.  2017-04-07 03:47:33 +0000     3757 byte  components/menu/menu-toggle.js</tspan>
-<tspan x="10" y="1962">119.  2017-04-07 03:47:33 +0000      582 byte  components/menu/menu-types.d.ts</tspan>
-<tspan x="10" y="1978">120.  2017-04-07 03:47:33 +0000     5053 byte  components/menu/menu-types.js</tspan>
-<tspan x="10" y="1994">121.  2017-04-07 03:47:33 +0000     4329 byte  components/menu/menu.d.ts</tspan>
-<tspan x="10" y="2010">122.  2017-04-07 03:47:33 +0000      463 byte  components/menu/menu.ios.scss</tspan>
-<tspan x="10" y="2026">123.  2017-04-07 03:47:33 +0000    15969 byte  components/menu/menu.js</tspan>
-<tspan x="10" y="2042">124.  2017-04-07 03:47:33 +0000      467 byte  components/menu/menu.md.scss</tspan>
-<tspan x="10" y="2058">125.  2017-04-07 03:47:33 +0000     1783 byte  components/menu/menu.scss</tspan>
-<tspan x="10" y="2074">126.  2017-04-07 03:47:33 +0000     3185 byte  components/modal/modal.d.ts</tspan>
-<tspan x="10" y="2090">127.  2017-04-07 03:47:33 +0000      239 byte  components/modal/modal.ios.scss</tspan>
-<tspan x="10" y="2106">128.  2017-04-07 03:47:33 +0000     6722 byte  components/modal/modal.js</tspan>
-<tspan x="10" y="2122">129.  2017-04-07 03:47:33 +0000      247 byte  components/modal/modal.md.scss</tspan>
-<tspan x="10" y="2138">130.  2017-04-07 03:47:33 +0000      258 byte  components/modal/modal.scss</tspan>
-<tspan x="10" y="2154">131.  2017-04-07 03:47:33 +0000    20929 byte  components/nav/nav-controller.d.ts</tspan>
-<tspan x="10" y="2170">132.  2017-04-07 03:47:33 +0000    62638 byte  components/nav/nav-controller.js</tspan>
-<tspan x="10" y="2186">133.  2017-04-07 03:47:33 +0000     1347 byte  components/nav/nav-params.d.ts</tspan>
-<tspan x="10" y="2202">134.  2017-04-07 03:47:33 +0000     1525 byte  components/nav/nav-params.js</tspan>
-<tspan x="10" y="2218">135.  2017-04-07 03:47:33 +0000     2364 byte  components/nav/nav-push.d.ts</tspan>
-<tspan x="10" y="2234">136.  2017-04-07 03:47:33 +0000     5006 byte  components/nav/nav-push.js</tspan>
-<tspan x="10" y="2250">137.  2017-04-07 03:47:33 +0000      283 byte  components/nav/nav-registry.d.ts</tspan>
-<tspan x="10" y="2266">138.  2017-04-07 03:47:33 +0000      750 byte  components/nav/nav-registry.js</tspan>
-<tspan x="10" y="2282">139.  2017-04-07 03:47:33 +0000      729 byte  components/nav/nav-router.d.ts</tspan>
-<tspan x="10" y="2298">140.  2017-04-07 03:47:33 +0000     5499 byte  components/nav/nav-router.js</tspan>
-<tspan x="10" y="2314">141.  2017-04-07 03:47:33 +0000     5415 byte  components/nav/nav.d.ts</tspan>
-<tspan x="10" y="2330">142.  2017-04-07 03:47:33 +0000     7752 byte  components/nav/nav.js</tspan>
-<tspan x="10" y="2346">143.  2017-04-07 03:47:33 +0000      487 byte  components/nav/swipe-back.d.ts</tspan>
-<tspan x="10" y="2362">144.  2017-04-07 03:47:33 +0000     2031 byte  components/nav/swipe-back.js</tspan>
-<tspan x="10" y="2378">145.  2017-04-07 03:47:33 +0000     7474 byte  components/nav/view-controller.d.ts</tspan>
-<tspan x="10" y="2394">146.  2017-04-07 03:47:33 +0000    14048 byte  components/nav/view-controller.js</tspan>
-<tspan x="10" y="2410">147.  2017-04-07 03:47:33 +0000     2456 byte  components/navbar/navbar.d.ts</tspan>
-<tspan x="10" y="2426">148.  2017-04-07 03:47:33 +0000     8757 byte  components/navbar/navbar.js</tspan>
-<tspan x="10" y="2442">149.  2017-04-07 03:47:33 +0000      774 byte  components/option/option.d.ts</tspan>
-<tspan x="10" y="2458">150.  2017-04-07 03:47:33 +0000     3041 byte  components/option/option.js</tspan>
-<tspan x="10" y="2474">151.  2017-04-07 03:47:33 +0000       75 byte  components/overlay/overlay.d.ts</tspan>
-<tspan x="10" y="2490">152.  2017-04-07 03:47:33 +0000     1184 byte  components/overlay/overlay.js</tspan>
-<tspan x="10" y="2506">153.  2017-04-07 03:47:33 +0000     1520 byte  components/radio/radio-button.d.ts</tspan>
-<tspan x="10" y="2522">154.  2017-04-07 03:47:33 +0000     6262 byte  components/radio/radio-button.js</tspan>
-<tspan x="10" y="2538">155.  2017-04-07 03:47:33 +0000     2483 byte  components/radio/radio-group.d.ts</tspan>
-<tspan x="10" y="2554">156.  2017-04-07 03:47:33 +0000     6716 byte  components/radio/radio-group.js</tspan>
-<tspan x="10" y="2570">157.  2017-04-07 03:47:33 +0000     2182 byte  components/radio/radio.ios.scss</tspan>
-<tspan x="10" y="2586">158.  2017-04-07 03:47:33 +0000     3089 byte  components/radio/radio.md.scss</tspan>
-<tspan x="10" y="2602">159.  2017-04-07 03:47:33 +0000      775 byte  components/refresher/refresher-content.d.ts</tspan>
-<tspan x="10" y="2618">160.  2017-04-07 03:47:33 +0000     3323 byte  components/refresher/refresher-content.js</tspan>
-<tspan x="10" y="2634">161.  2017-04-07 03:47:33 +0000     7186 byte  components/refresher/refresher.d.ts</tspan>
-<tspan x="10" y="2650">162.  2017-04-07 03:47:33 +0000    20608 byte  components/refresher/refresher.js</tspan>
-<tspan x="10" y="2666">163.  2017-04-07 03:47:33 +0000     2171 byte  components/refresher/refresher.scss</tspan>
-<tspan x="10" y="2682">164.  2017-04-07 03:47:33 +0000     1547 byte  components/scroll/scroll.d.ts</tspan>
-<tspan x="10" y="2698">165.  2017-04-07 03:47:33 +0000     3635 byte  components/scroll/scroll.js</tspan>
-<tspan x="10" y="2714">166.  2017-04-07 03:47:33 +0000      548 byte  components/scroll/scroll.scss</tspan>
-<tspan x="10" y="2730">167.  2017-04-07 03:47:33 +0000     4371 byte  components/searchbar/searchbar.d.ts</tspan>
-<tspan x="10" y="2746">168.  2017-04-07 03:47:33 +0000     5660 byte  components/searchbar/searchbar.ios.scss</tspan>
-<tspan x="10" y="2762">169.  2017-04-07 03:47:33 +0000    12691 byte  components/searchbar/searchbar.js</tspan>
-<tspan x="10" y="2778">170.  2017-04-07 03:47:33 +0000     4465 byte  components/searchbar/searchbar.md.scss</tspan>
-<tspan x="10" y="2794">171.  2017-04-07 03:47:33 +0000      577 byte  components/searchbar/searchbar.scss</tspan>
-<tspan x="10" y="2810">172.  2017-04-07 03:47:33 +0000     4311 byte  components/segment/segment.d.ts</tspan>
-<tspan x="10" y="2826">173.  2017-04-07 03:47:33 +0000     4459 byte  components/segment/segment.ios.scss</tspan>
-<tspan x="10" y="2842">174.  2017-04-07 03:47:33 +0000     8429 byte  components/segment/segment.js</tspan>
-<tspan x="10" y="2858">175.  2017-04-07 03:47:33 +0000     2305 byte  components/segment/segment.md.scss</tspan>
-<tspan x="10" y="2874">176.  2017-04-07 03:47:33 +0000      442 byte  components/segment/segment.scss</tspan>
-<tspan x="10" y="2890">177.  2017-04-07 03:47:33 +0000     5266 byte  components/select/select.d.ts</tspan>
-<tspan x="10" y="2906">178.  2017-04-07 03:47:33 +0000      863 byte  components/select/select.ios.scss</tspan>
-<tspan x="10" y="2922">179.  2017-04-07 03:47:33 +0000    13856 byte  components/select/select.js</tspan>
-<tspan x="10" y="2938">180.  2017-04-07 03:47:33 +0000      907 byte  components/select/select.md.scss</tspan>
-<tspan x="10" y="2954">181.  2017-04-07 03:47:33 +0000      460 byte  components/select/select.scss</tspan>
-<tspan x="10" y="2970">182.  2017-04-07 03:47:33 +0000     1618 byte  components/show-hide-when/show-hide-when.d.ts</tspan>
-<tspan x="10" y="2986">183.  2017-04-07 03:47:33 +0000     5224 byte  components/show-hide-when/show-hide-when.js</tspan>
-<tspan x="10" y="3002">184.  2017-04-07 03:47:33 +0000     5223 byte  components/slides/slides.d.ts</tspan>
-<tspan x="10" y="3018">185.  2017-04-07 03:47:33 +0000    18799 byte  components/slides/slides.js</tspan>
-<tspan x="10" y="3034">186.  2017-04-07 03:47:33 +0000    17911 byte  components/slides/slides.scss</tspan>
-<tspan x="10" y="3050">187.  2017-04-07 03:47:33 +0000      226 byte  components/slides/swiper-widget.d.ts</tspan>
-<tspan x="10" y="3066">188.  2017-04-07 03:47:33 +0000   159398 byte  components/slides/swiper-widget.js</tspan>
-<tspan x="10" y="3082">189.  2017-04-07 03:47:33 +0000   100440 byte  components/slides/swiper-widget.system.js</tspan>
-<tspan x="10" y="3098">190.  2017-04-07 03:47:33 +0000     2937 byte  components/spinner/spinner.d.ts</tspan>
-<tspan x="10" y="3114">191.  2017-04-07 03:47:33 +0000     8684 byte  components/spinner/spinner.js</tspan>
-<tspan x="10" y="3130">192.  2017-04-07 03:47:33 +0000     2105 byte  components/spinner/spinner.scss</tspan>
-<tspan x="10" y="3146">193.  2017-04-07 03:47:33 +0000      515 byte  components/tabs/tab-button.d.ts</tspan>
-<tspan x="10" y="3162">194.  2017-04-07 03:47:33 +0000     3163 byte  components/tabs/tab-button.js</tspan>
-<tspan x="10" y="3178">195.  2017-04-07 03:47:33 +0000      216 byte  components/tabs/tab-highlight.d.ts</tspan>
-<tspan x="10" y="3194">196.  2017-04-07 03:47:33 +0000     1764 byte  components/tabs/tab-highlight.js</tspan>
-<tspan x="10" y="3210">197.  2017-04-07 03:47:33 +0000     3916 byte  components/tabs/tab.d.ts</tspan>
-<tspan x="10" y="3226">198.  2017-04-07 03:47:33 +0000     8122 byte  components/tabs/tab.js</tspan>
-<tspan x="10" y="3242">199.  2017-04-07 03:47:33 +0000     3716 byte  components/tabs/tabs.d.ts</tspan>
-<tspan x="10" y="3258">200.  2017-04-07 03:47:33 +0000     2947 byte  components/tabs/tabs.ios.scss</tspan>
-<tspan x="10" y="3274">201.  2017-04-07 03:47:33 +0000    12762 byte  components/tabs/tabs.js</tspan>
-<tspan x="10" y="3290">202.  2017-04-07 03:47:33 +0000     2670 byte  components/tabs/tabs.md.scss</tspan>
-<tspan x="10" y="3306">203.  2017-04-07 03:47:33 +0000     2554 byte  components/tabs/tabs.scss</tspan>
-<tspan x="10" y="3322">204.  2017-04-07 03:47:33 +0000      518 byte  components/tap-click/activator.d.ts</tspan>
-<tspan x="10" y="3338">205.  2017-04-07 03:47:33 +0000     3068 byte  components/tap-click/activator.js</tspan>
-<tspan x="10" y="3354">206.  2017-04-07 03:47:33 +0000      375 byte  components/tap-click/ripple.d.ts</tspan>
-<tspan x="10" y="3370">207.  2017-04-07 03:47:33 +0000     5105 byte  components/tap-click/ripple.js</tspan>
-<tspan x="10" y="3386">208.  2017-04-07 03:47:33 +0000      848 byte  components/tap-click/tap-click.d.ts</tspan>
-<tspan x="10" y="3402">209.  2017-04-07 03:47:33 +0000     7620 byte  components/tap-click/tap-click.js</tspan>
-<tspan x="10" y="3418">210.  2017-04-07 03:47:33 +0000     2632 byte  components/toggle/toggle.d.ts</tspan>
-<tspan x="10" y="3434">211.  2017-04-07 03:47:33 +0000     5044 byte  components/toggle/toggle.ios.scss</tspan>
-<tspan x="10" y="3450">212.  2017-04-07 03:47:33 +0000     8844 byte  components/toggle/toggle.js</tspan>
-<tspan x="10" y="3466">213.  2017-04-07 03:47:33 +0000     3799 byte  components/toggle/toggle.md.scss</tspan>
-<tspan x="10" y="3482">214.  2017-04-07 03:47:33 +0000     1064 byte  components/toolbar/toolbar-button.scss</tspan>
-<tspan x="10" y="3498">215.  2017-04-07 03:47:33 +0000     2923 byte  components/toolbar/toolbar.d.ts</tspan>
-<tspan x="10" y="3514">216.  2017-04-07 03:47:33 +0000     6457 byte  components/toolbar/toolbar.ios.scss</tspan>
-<tspan x="10" y="3530">217.  2017-04-07 03:47:33 +0000     7882 byte  components/toolbar/toolbar.js</tspan>
-<tspan x="10" y="3546">218.  2017-04-07 03:47:33 +0000     6576 byte  components/toolbar/toolbar.md.scss</tspan>
-<tspan x="10" y="3562">219.  2017-04-07 03:47:33 +0000     1590 byte  components/toolbar/toolbar.scss</tspan>
-<tspan x="10" y="3578">220.  2017-04-07 03:47:33 +0000      564 byte  config/bootstrap.d.ts</tspan>
-<tspan x="10" y="3594">221.  2017-04-07 03:47:33 +0000     5407 byte  config/bootstrap.js</tspan>
-<tspan x="10" y="3610">222.  2017-04-07 03:47:33 +0000     5421 byte  config/config.d.ts</tspan>
-<tspan x="10" y="3626">223.  2017-04-07 03:47:33 +0000    11659 byte  config/config.js</tspan>
-<tspan x="10" y="3642">224.  2017-04-07 03:47:33 +0000     4177 byte  config/directives.d.ts</tspan>
-<tspan x="10" y="3658">225.  2017-04-07 03:47:33 +0000     4773 byte  config/directives.js</tspan>
-<tspan x="10" y="3674">226.  2017-04-07 03:47:33 +0000        0 byte  config/modes.d.ts</tspan>
-<tspan x="10" y="3690">227.  2017-04-07 03:47:33 +0000     1208 byte  config/modes.js</tspan>
-<tspan x="10" y="3706">228.  2017-04-07 03:47:33 +0000     2018 byte  decorators/app.d.ts</tspan>
-<tspan x="10" y="3722">229.  2017-04-07 03:47:33 +0000     2849 byte  decorators/app.js</tspan>
-<tspan x="10" y="3738">230.  2017-04-07 03:47:33 +0000     2816 byte  decorators/page.d.ts</tspan>
-<tspan x="10" y="3754">231.  2017-04-07 03:47:33 +0000     2817 byte  decorators/page.js</tspan>
-<tspan x="10" y="3770">232.  2017-04-07 03:47:33 +0000      921 byte  fonts/ionicons.scss</tspan>
-<tspan x="10" y="3786">233.  2017-04-07 03:47:33 +0000   143936 byte  fonts/ionicons.ttf</tspan>
-<tspan x="10" y="3802">234.  2017-04-07 03:47:33 +0000    80356 byte  fonts/ionicons.woff</tspan>
-<tspan x="10" y="3818">235.  2017-04-07 03:47:33 +0000    61020 byte  fonts/ionicons.woff2</tspan>
-<tspan x="10" y="3834">236.  2017-04-07 03:47:33 +0000    20040 byte  fonts/roboto-bold.ttf</tspan>
-<tspan x="10" y="3850">237.  2017-04-07 03:47:33 +0000    13348 byte  fonts/roboto-bold.woff</tspan>
-<tspan x="10" y="3866">238.  2017-04-07 03:47:33 +0000    19908 byte  fonts/roboto-light.ttf</tspan>
-<tspan x="10" y="3882">239.  2017-04-07 03:47:33 +0000    13360 byte  fonts/roboto-light.woff</tspan>
-<tspan x="10" y="3898">240.  2017-04-07 03:47:33 +0000    19752 byte  fonts/roboto-medium.ttf</tspan>
-<tspan x="10" y="3914">241.  2017-04-07 03:47:33 +0000    13248 byte  fonts/roboto-medium.woff</tspan>
-<tspan x="10" y="3930">242.  2017-04-07 03:47:33 +0000    19876 byte  fonts/roboto-regular.ttf</tspan>
-<tspan x="10" y="3946">243.  2017-04-07 03:47:33 +0000    13308 byte  fonts/roboto-regular.woff</tspan>
-<tspan x="10" y="3962">244.  2017-04-07 03:47:33 +0000     1204 byte  fonts/roboto.scss</tspan>
-<tspan x="10" y="3978">245.  2017-04-07 03:47:33 +0000      270 byte  gestures/drag-gesture.d.ts</tspan>
-<tspan x="10" y="3994">246.  2017-04-07 03:47:33 +0000     1529 byte  gestures/drag-gesture.js</tspan>
-<tspan x="10" y="4010">247.  2017-04-07 03:47:33 +0000      562 byte  gestures/gesture.d.ts</tspan>
-<tspan x="10" y="4026">248.  2017-04-07 03:47:33 +0000     2146 byte  gestures/gesture.js</tspan>
-<tspan x="10" y="4042">249.  2017-04-07 03:47:33 +0000      414 byte  gestures/hammer.d.ts</tspan>
-<tspan x="10" y="4058">250.  2017-04-07 03:47:33 +0000    68227 byte  gestures/hammer.js</tspan>
-<tspan x="10" y="4074">251.  2017-04-07 03:47:33 +0000      434 byte  gestures/slide-edge-gesture.d.ts</tspan>
-<tspan x="10" y="4090">252.  2017-04-07 03:47:33 +0000     1858 byte  gestures/slide-edge-gesture.js</tspan>
-<tspan x="10" y="4106">253.  2017-04-07 03:47:33 +0000      875 byte  gestures/slide-gesture.d.ts</tspan>
-<tspan x="10" y="4122">254.  2017-04-07 03:47:33 +0000     2857 byte  gestures/slide-gesture.js</tspan>
-<tspan x="10" y="4138">255.  2017-04-07 03:47:33 +0000      252 byte  globals.core.scss</tspan>
-<tspan x="10" y="4154">256.  2017-04-07 03:47:33 +0000       86 byte  globals.ios.scss</tspan>
-<tspan x="10" y="4170">257.  2017-04-07 03:47:33 +0000       99 byte  globals.md.scss</tspan>
-<tspan x="10" y="4186">258.  2017-04-07 03:47:33 +0000      576 byte  index.d.ts</tspan>
-<tspan x="10" y="4202">259.  2017-04-07 03:47:33 +0000      966 byte  index.js</tspan>
-<tspan x="10" y="4218">260.  2017-04-07 03:47:33 +0000      173 byte  ionic.ios.scss</tspan>
-<tspan x="10" y="4234">261.  2017-04-07 03:47:33 +0000      207 byte  ionic.md.scss</tspan>
-<tspan x="10" y="4250">262.  2017-04-07 03:47:33 +0000      232 byte  ionic.scss</tspan>
-<tspan x="10" y="4266">263.  2017-04-07 03:47:33 +0000     2816 byte  package.json</tspan>
-<tspan x="10" y="4282">264.  2017-04-07 03:47:33 +0000     1097 byte  platform/cordova.ios.scss</tspan>
-<tspan x="10" y="4298">265.  2017-04-07 03:47:33 +0000     8123 byte  platform/platform.d.ts</tspan>
-<tspan x="10" y="4314">266.  2017-04-07 03:47:33 +0000    20468 byte  platform/platform.js</tspan>
-<tspan x="10" y="4330">267.  2017-04-07 03:47:33 +0000        0 byte  platform/registry.d.ts</tspan>
-<tspan x="10" y="4346">268.  2017-04-07 03:47:33 +0000     4668 byte  platform/registry.js</tspan>
-<tspan x="10" y="4362">269.  2017-04-07 03:47:33 +0000      107 byte  platform/storage.d.ts</tspan>
-<tspan x="10" y="4378">270.  2017-04-07 03:47:33 +0000      219 byte  platform/storage.js</tspan>
-<tspan x="10" y="4394">271.  2017-04-07 03:47:33 +0000     1586 byte  platform/storage/local-storage.d.ts</tspan>
-<tspan x="10" y="4410">272.  2017-04-07 03:47:33 +0000     2841 byte  platform/storage/local-storage.js</tspan>
-<tspan x="10" y="4426">273.  2017-04-07 03:47:33 +0000     2923 byte  platform/storage/sql.d.ts</tspan>
-<tspan x="10" y="4442">274.  2017-04-07 03:47:33 +0000     7912 byte  platform/storage/sql.js</tspan>
-<tspan x="10" y="4458">275.  2017-04-07 03:47:33 +0000     1073 byte  platform/storage/storage.d.ts</tspan>
-<tspan x="10" y="4474">276.  2017-04-07 03:47:33 +0000     2338 byte  platform/storage/storage.js</tspan>
-<tspan x="10" y="4490">277.  2017-04-07 03:47:33 +0000     3317 byte  themes/dark.ios.scss</tspan>
-<tspan x="10" y="4506">278.  2017-04-07 03:47:33 +0000     3094 byte  themes/dark.md.scss</tspan>
-<tspan x="10" y="4522">279.  2017-04-07 03:47:33 +0000     1032 byte  themes/dark.scss</tspan>
-<tspan x="10" y="4538">280.  2017-04-07 03:47:33 +0000     2464 byte  themes/default.ios.scss</tspan>
-<tspan x="10" y="4554">281.  2017-04-07 03:47:33 +0000     2209 byte  themes/default.md.scss</tspan>
-<tspan x="10" y="4570">282.  2017-04-07 03:47:33 +0000     1030 byte  themes/default.scss</tspan>
-<tspan x="10" y="4586">283.  2017-04-07 03:47:33 +0000     1570 byte  tooling/generate.js</tspan>
-<tspan x="10" y="4602">284.  2017-04-07 03:47:33 +0000     2084 byte  tooling/generator.js</tspan>
-<tspan x="10" y="4618">285.  2017-04-07 03:47:33 +0000      212 byte  tooling/generators/component/component.tmpl.html</tspan>
-<tspan x="10" y="4634">286.  2017-04-07 03:47:33 +0000      577 byte  tooling/generators/component/component.tmpl.js</tspan>
-<tspan x="10" y="4650">287.  2017-04-07 03:47:33 +0000      286 byte  tooling/generators/component/index.js</tspan>
-<tspan x="10" y="4666">288.  2017-04-07 03:47:33 +0000      384 byte  tooling/generators/directive/directive.tmpl.js</tspan>
-<tspan x="10" y="4682">289.  2017-04-07 03:47:33 +0000      287 byte  tooling/generators/directive/index.js</tspan>
-<tspan x="10" y="4698">290.  2017-04-07 03:47:33 +0000     1280 byte  tooling/generators/page/index.js</tspan>
-<tspan x="10" y="4714">291.  2017-04-07 03:47:33 +0000      311 byte  tooling/generators/page/page.tmpl.html</tspan>
-<tspan x="10" y="4730">292.  2017-04-07 03:47:33 +0000      451 byte  tooling/generators/page/page.tmpl.js</tspan>
-<tspan x="10" y="4746">293.  2017-04-07 03:47:33 +0000       22 byte  tooling/generators/page/page.tmpl.scss</tspan>
-<tspan x="10" y="4762">294.  2017-04-07 03:47:33 +0000      952 byte  tooling/generators/pipe/index.js</tspan>
-<tspan x="10" y="4778">295.  2017-04-07 03:47:33 +0000      454 byte  tooling/generators/pipe/pipe.tmpl.js</tspan>
-<tspan x="10" y="4794">296.  2017-04-07 03:47:33 +0000      283 byte  tooling/generators/provider/index.js</tspan>
-<tspan x="10" y="4810">297.  2017-04-07 03:47:33 +0000     1111 byte  tooling/generators/provider/provider.tmpl.js</tspan>
-<tspan x="10" y="4826">298.  2017-04-07 03:47:33 +0000     2146 byte  tooling/generators/tabs/index.js</tspan>
-<tspan x="10" y="4842">299.  2017-04-07 03:47:33 +0000      171 byte  tooling/generators/tabs/tabs.tmpl.html</tspan>
-<tspan x="10" y="4858">300.  2017-04-07 03:47:33 +0000      538 byte  tooling/generators/tabs/tabs.tmpl.js</tspan>
-<tspan x="10" y="4874">301.  2017-04-07 03:47:33 +0000      112 byte  tooling/index.js</tspan>
-<tspan x="10" y="4890">302.  2017-04-07 03:47:33 +0000        0 byte  transitions/transition-ios.d.ts</tspan>
-<tspan x="10" y="4906">303.  2017-04-07 03:47:33 +0000     7876 byte  transitions/transition-ios.js</tspan>
-<tspan x="10" y="4922">304.  2017-04-07 03:47:33 +0000        0 byte  transitions/transition-md.d.ts</tspan>
-<tspan x="10" y="4938">305.  2017-04-07 03:47:33 +0000     2647 byte  transitions/transition-md.js</tspan>
-<tspan x="10" y="4954">306.  2017-04-07 03:47:33 +0000      600 byte  transitions/transition.d.ts</tspan>
-<tspan x="10" y="4970">307.  2017-04-07 03:47:33 +0000     1172 byte  transitions/transition.js</tspan>
-<tspan x="10" y="4986">308.  2017-04-07 03:47:33 +0000     1091 byte  translation/translate.d.ts</tspan>
-<tspan x="10" y="5002">309.  2017-04-07 03:47:33 +0000     1863 byte  translation/translate.js</tspan>
-<tspan x="10" y="5018">310.  2017-04-07 03:47:33 +0000      614 byte  translation/translate_pipe.d.ts</tspan>
-<tspan x="10" y="5034">311.  2017-04-07 03:47:33 +0000     1851 byte  translation/translate_pipe.js</tspan>
-<tspan x="10" y="5050">312.  2017-04-07 03:47:33 +0000      110 byte  util.d.ts</tspan>
-<tspan x="10" y="5066">313.  2017-04-07 03:47:33 +0000      191 byte  util.js</tspan>
-<tspan x="10" y="5082">314.  2017-04-07 03:47:33 +0000      144 byte  util/click-block.d.ts</tspan>
-<tspan x="10" y="5098">315.  2017-04-07 03:47:33 +0000     1247 byte  util/click-block.js</tspan>
-<tspan x="10" y="5114">316.  2017-04-07 03:47:33 +0000     1653 byte  util/dom.d.ts</tspan>
-<tspan x="10" y="5130">317.  2017-04-07 03:47:33 +0000     8798 byte  util/dom.js</tspan>
-<tspan x="10" y="5146">318.  2017-04-07 03:47:33 +0000     1456 byte  util/events.d.ts</tspan>
-<tspan x="10" y="5162">319.  2017-04-07 03:47:33 +0000     2978 byte  util/events.js</tspan>
-<tspan x="10" y="5178">320.  2017-04-07 03:47:33 +0000      182 byte  util/feature-detect.d.ts</tspan>
-<tspan x="10" y="5194">321.  2017-04-07 03:47:33 +0000     1491 byte  util/feature-detect.js</tspan>
-<tspan x="10" y="5210">322.  2017-04-07 03:47:33 +0000      438 byte  util/form.d.ts</tspan>
-<tspan x="10" y="5226">323.  2017-04-07 03:47:33 +0000     2960 byte  util/form.js</tspan>
-<tspan x="10" y="5242">324.  2017-04-07 03:47:33 +0000     1603 byte  util/functions.scss</tspan>
-<tspan x="10" y="5258">325.  2017-04-07 03:47:33 +0000     1854 byte  util/keyboard.d.ts</tspan>
-<tspan x="10" y="5274">326.  2017-04-07 03:47:33 +0000     6391 byte  util/keyboard.js</tspan>
-<tspan x="10" y="5290">327.  2017-04-07 03:47:33 +0000     1139 byte  util/mixins.scss</tspan>
-<tspan x="10" y="5306">328.  2017-04-07 03:47:33 +0000     2213 byte  util/util.d.ts</tspan>
-<tspan x="10" y="5322">329.  2017-04-07 03:47:33 +0000     6828 byte  util/util.js</tspan>
-<tspan x="10" y="5338">330.  2017-04-07 03:47:33 +0000     3642 byte  util/util.scss</tspan>
+<tspan x="10" y="26">  0.  2017-04-19 06:19:13 +0000  5398792 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-19 06:19:13 +0000     1696 bytes  README.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-19 06:19:13 +0000     2902 bytes  animations/animation.d.ts</tspan>
+<tspan x="10" y="74">  3.  2017-04-19 06:19:13 +0000    24869 bytes  animations/animation.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-19 06:19:13 +0000        0 bytes  animations/builtins.d.ts</tspan>
+<tspan x="10" y="106">  5.  2017-04-19 06:19:13 +0000     1715 bytes  animations/builtins.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-19 06:19:13 +0000      226 bytes  animations/scroll-to.d.ts</tspan>
+<tspan x="10" y="138">  7.  2017-04-19 06:19:13 +0000     3054 bytes  animations/scroll-to.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-19 06:19:13 +0000   283872 bytes  bundles/ionic.css</tspan>
+<tspan x="10" y="170">  9.  2017-04-19 06:19:13 +0000   159588 bytes  bundles/ionic.ios.css</tspan>
+<tspan x="10" y="186"> 10.  2017-04-19 06:19:13 +0000   126533 bytes  bundles/ionic.ios.min.css</tspan>
+<tspan x="10" y="202"> 11.  2017-04-19 06:19:13 +0000   897991 bytes  bundles/ionic.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-19 06:19:13 +0000   195823 bytes  bundles/ionic.md.css</tspan>
+<tspan x="10" y="234"> 13.  2017-04-19 06:19:13 +0000   155419 bytes  bundles/ionic.md.min.css</tspan>
+<tspan x="10" y="250"> 14.  2017-04-19 06:19:13 +0000   219175 bytes  bundles/ionic.min.css</tspan>
+<tspan x="10" y="266"> 15.  2017-04-19 06:19:13 +0000   304721 bytes  bundles/ionic.min.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-19 06:19:13 +0000  1225738 bytes  bundles/ionic.system.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-19 06:19:13 +0000      626 bytes  components.core.scss</tspan>
+<tspan x="10" y="314"> 18.  2017-04-19 06:19:13 +0000     2123 bytes  components.d.ts</tspan>
+<tspan x="10" y="330"> 19.  2017-04-19 06:19:13 +0000      859 bytes  components.ios.scss</tspan>
+<tspan x="10" y="346"> 20.  2017-04-19 06:19:13 +0000     2450 bytes  components.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-19 06:19:13 +0000      802 bytes  components.md.scss</tspan>
+<tspan x="10" y="378"> 22.  2017-04-19 06:19:13 +0000     5468 bytes  components/action-sheet/action-sheet.d.ts</tspan>
+<tspan x="10" y="394"> 23.  2017-04-19 06:19:13 +0000     2650 bytes  components/action-sheet/action-sheet.ios.scss</tspan>
+<tspan x="10" y="410"> 24.  2017-04-19 06:19:13 +0000    15590 bytes  components/action-sheet/action-sheet.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-19 06:19:13 +0000     2026 bytes  components/action-sheet/action-sheet.md.scss</tspan>
+<tspan x="10" y="442"> 26.  2017-04-19 06:19:13 +0000      804 bytes  components/action-sheet/action-sheet.scss</tspan>
+<tspan x="10" y="458"> 27.  2017-04-19 06:19:13 +0000     4508 bytes  components/alert/alert.d.ts</tspan>
+<tspan x="10" y="474"> 28.  2017-04-19 06:19:13 +0000     7425 bytes  components/alert/alert.ios.scss</tspan>
+<tspan x="10" y="490"> 29.  2017-04-19 06:19:13 +0000    18905 bytes  components/alert/alert.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-19 06:19:13 +0000     5844 bytes  components/alert/alert.md.scss</tspan>
+<tspan x="10" y="522"> 31.  2017-04-19 06:19:13 +0000     1321 bytes  components/alert/alert.scss</tspan>
+<tspan x="10" y="538"> 32.  2017-04-19 06:19:13 +0000     2970 bytes  components/app/app.d.ts</tspan>
+<tspan x="10" y="554"> 33.  2017-04-19 06:19:13 +0000      551 bytes  components/app/app.ios.scss</tspan>
+<tspan x="10" y="570"> 34.  2017-04-19 06:19:13 +0000     5360 bytes  components/app/app.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-19 06:19:13 +0000      509 bytes  components/app/app.md.scss</tspan>
+<tspan x="10" y="602"> 36.  2017-04-19 06:19:13 +0000     1770 bytes  components/app/id.d.ts</tspan>
+<tspan x="10" y="618"> 37.  2017-04-19 06:19:13 +0000     3515 bytes  components/app/id.js</tspan>
+<tspan x="10" y="634"> 38.  2017-04-19 06:19:13 +0000     4174 bytes  components/app/normalize.scss</tspan>
+<tspan x="10" y="650"> 39.  2017-04-19 06:19:13 +0000      615 bytes  components/app/scrollbars.scss</tspan>
+<tspan x="10" y="666"> 40.  2017-04-19 06:19:13 +0000     3355 bytes  components/app/structure.scss</tspan>
+<tspan x="10" y="682"> 41.  2017-04-19 06:19:13 +0000     2082 bytes  components/app/typography.scss</tspan>
+<tspan x="10" y="698"> 42.  2017-04-19 06:19:13 +0000      683 bytes  components/badge/badge.d.ts</tspan>
+<tspan x="10" y="714"> 43.  2017-04-19 06:19:13 +0000      625 bytes  components/badge/badge.ios.scss</tspan>
+<tspan x="10" y="730"> 44.  2017-04-19 06:19:13 +0000     2333 bytes  components/badge/badge.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-19 06:19:13 +0000      639 bytes  components/badge/badge.md.scss</tspan>
+<tspan x="10" y="762"> 46.  2017-04-19 06:19:13 +0000      471 bytes  components/badge/badge.scss</tspan>
+<tspan x="10" y="778"> 47.  2017-04-19 06:19:13 +0000      473 bytes  components/blur/blur.d.ts</tspan>
+<tspan x="10" y="794"> 48.  2017-04-19 06:19:13 +0000     1552 bytes  components/blur/blur.js</tspan>
+<tspan x="10" y="810"> 49.  2017-04-19 06:19:13 +0000      738 bytes  components/button/button-fab.scss</tspan>
+<tspan x="10" y="826"> 50.  2017-04-19 06:19:13 +0000      512 bytes  components/button/button-icon.scss</tspan>
+<tspan x="10" y="842"> 51.  2017-04-19 06:19:13 +0000     2439 bytes  components/button/button.d.ts</tspan>
+<tspan x="10" y="858"> 52.  2017-04-19 06:19:13 +0000     5096 bytes  components/button/button.ios.scss</tspan>
+<tspan x="10" y="874"> 53.  2017-04-19 06:19:13 +0000     8924 bytes  components/button/button.js</tspan>
+<tspan x="10" y="890"> 54.  2017-04-19 06:19:13 +0000     7898 bytes  components/button/button.md.scss</tspan>
+<tspan x="10" y="906"> 55.  2017-04-19 06:19:13 +0000     1642 bytes  components/button/button.scss</tspan>
+<tspan x="10" y="922"> 56.  2017-04-19 06:19:13 +0000     3120 bytes  components/card/card.ios.scss</tspan>
+<tspan x="10" y="938"> 57.  2017-04-19 06:19:13 +0000     3410 bytes  components/card/card.md.scss</tspan>
+<tspan x="10" y="954"> 58.  2017-04-19 06:19:13 +0000      551 bytes  components/card/card.scss</tspan>
+<tspan x="10" y="970"> 59.  2017-04-19 06:19:13 +0000     2157 bytes  components/checkbox/checkbox.d.ts</tspan>
+<tspan x="10" y="986"> 60.  2017-04-19 06:19:13 +0000     3094 bytes  components/checkbox/checkbox.ios.scss</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-19 06:19:13 +0000     6805 bytes  components/checkbox/checkbox.js</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-19 06:19:13 +0000     3867 bytes  components/checkbox/checkbox.md.scss</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-19 06:19:13 +0000      408 bytes  components/chip/chip.ios.scss</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-19 06:19:13 +0000      408 bytes  components/chip/chip.md.scss</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-19 06:19:13 +0000     1231 bytes  components/chip/chip.scss</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-19 06:19:13 +0000     6432 bytes  components/content/content.d.ts</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-19 06:19:13 +0000      357 bytes  components/content/content.ios.scss</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-19 06:19:13 +0000    12093 bytes  components/content/content.js</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-19 06:19:13 +0000      725 bytes  components/content/content.md.scss</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-19 06:19:13 +0000     3670 bytes  components/grid/grid.scss</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-19 06:19:13 +0000     2489 bytes  components/icon/icon.d.ts</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-19 06:19:13 +0000     6724 bytes  components/icon/icon.js</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-19 06:19:13 +0000      194 bytes  components/icon/icon.scss</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-19 06:19:13 +0000      533 bytes  components/infinite-scroll/infinite-scroll-conte\</tspan>
+<tspan x="10" y="1226">nt.d.ts</tspan>
+<tspan x="10" y="1242"> 75.  2017-04-19 06:19:13 +0000     2577 bytes  components/infinite-scroll/infinite-scroll-conte\</tspan>
+<tspan x="10" y="1258">nt.js</tspan>
+<tspan x="10" y="1274"> 76.  2017-04-19 06:19:13 +0000     4989 bytes  components/infinite-scroll/infinite-scroll.d.ts</tspan>
+<tspan x="10" y="1290"> 77.  2017-04-19 06:19:13 +0000     9543 bytes  components/infinite-scroll/infinite-scroll.js</tspan>
+<tspan x="10" y="1306"> 78.  2017-04-19 06:19:13 +0000      951 bytes  components/infinite-scroll/infinite-scroll.scss</tspan>
+<tspan x="10" y="1322"> 79.  2017-04-19 06:19:13 +0000     3684 bytes  components/input/input-base.d.ts</tspan>
+<tspan x="10" y="1338"> 80.  2017-04-19 06:19:13 +0000    22696 bytes  components/input/input-base.js</tspan>
+<tspan x="10" y="1354"> 81.  2017-04-19 06:19:13 +0000     3444 bytes  components/input/input.d.ts</tspan>
+<tspan x="10" y="1370"> 82.  2017-04-19 06:19:13 +0000     2134 bytes  components/input/input.ios.scss</tspan>
+<tspan x="10" y="1386"> 83.  2017-04-19 06:19:13 +0000     7435 bytes  components/input/input.js</tspan>
+<tspan x="10" y="1402"> 84.  2017-04-19 06:19:13 +0000     2993 bytes  components/input/input.md.scss</tspan>
+<tspan x="10" y="1418"> 85.  2017-04-19 06:19:13 +0000     2367 bytes  components/input/input.scss</tspan>
+<tspan x="10" y="1434"> 86.  2017-04-19 06:19:13 +0000     1133 bytes  components/input/native-input.d.ts</tspan>
+<tspan x="10" y="1450"> 87.  2017-04-19 06:19:13 +0000     7003 bytes  components/input/native-input.js</tspan>
+<tspan x="10" y="1466"> 88.  2017-04-19 06:19:13 +0000      624 bytes  components/ion.d.ts</tspan>
+<tspan x="10" y="1482"> 89.  2017-04-19 06:19:13 +0000     1096 bytes  components/ion.js</tspan>
+<tspan x="10" y="1498"> 90.  2017-04-19 06:19:13 +0000      829 bytes  components/item/item-media.scss</tspan>
+<tspan x="10" y="1514"> 91.  2017-04-19 06:19:13 +0000      785 bytes  components/item/item-sliding-gesture.d.ts</tspan>
+<tspan x="10" y="1530"> 92.  2017-04-19 06:19:13 +0000     8268 bytes  components/item/item-sliding-gesture.js</tspan>
+<tspan x="10" y="1546"> 93.  2017-04-19 06:19:13 +0000      917 bytes  components/item/item-sliding.d.ts</tspan>
+<tspan x="10" y="1562"> 94.  2017-04-19 06:19:13 +0000     2471 bytes  components/item/item-sliding.js</tspan>
+<tspan x="10" y="1578"> 95.  2017-04-19 06:19:13 +0000     1144 bytes  components/item/item-sliding.scss</tspan>
+<tspan x="10" y="1594"> 96.  2017-04-19 06:19:13 +0000     2057 bytes  components/item/item.d.ts</tspan>
+<tspan x="10" y="1610"> 97.  2017-04-19 06:19:13 +0000     4742 bytes  components/item/item.ios.scss</tspan>
+<tspan x="10" y="1626"> 98.  2017-04-19 06:19:13 +0000     6598 bytes  components/item/item.js</tspan>
+<tspan x="10" y="1642"> 99.  2017-04-19 06:19:13 +0000     3854 bytes  components/item/item.md.scss</tspan>
+<tspan x="10" y="1658">100.  2017-04-19 06:19:13 +0000     1069 bytes  components/item/item.scss</tspan>
+<tspan x="10" y="1674">101.  2017-04-19 06:19:13 +0000     1715 bytes  components/label/label.d.ts</tspan>
+<tspan x="10" y="1690">102.  2017-04-19 06:19:13 +0000     1327 bytes  components/label/label.ios.scss</tspan>
+<tspan x="10" y="1706">103.  2017-04-19 06:19:13 +0000     3953 bytes  components/label/label.js</tspan>
+<tspan x="10" y="1722">104.  2017-04-19 06:19:13 +0000     1628 bytes  components/label/label.md.scss</tspan>
+<tspan x="10" y="1738">105.  2017-04-19 06:19:13 +0000      849 bytes  components/label/label.scss</tspan>
+<tspan x="10" y="1754">106.  2017-04-19 06:19:13 +0000     2210 bytes  components/list/list.d.ts</tspan>
+<tspan x="10" y="1770">107.  2017-04-19 06:19:13 +0000     3892 bytes  components/list/list.ios.scss</tspan>
+<tspan x="10" y="1786">108.  2017-04-19 06:19:13 +0000     5062 bytes  components/list/list.js</tspan>
+<tspan x="10" y="1802">109.  2017-04-19 06:19:13 +0000     3193 bytes  components/list/list.md.scss</tspan>
+<tspan x="10" y="1818">110.  2017-04-19 06:19:13 +0000      355 bytes  components/list/list.scss</tspan>
+<tspan x="10" y="1834">111.  2017-04-19 06:19:13 +0000      766 bytes  components/menu/menu-close.d.ts</tspan>
+<tspan x="10" y="1850">112.  2017-04-19 06:19:13 +0000     2255 bytes  components/menu/menu-close.js</tspan>
+<tspan x="10" y="1866">113.  2017-04-19 06:19:13 +0000     8029 bytes  components/menu/menu-controller.d.ts</tspan>
+<tspan x="10" y="1882">114.  2017-04-19 06:19:13 +0000    10727 bytes  components/menu/menu-controller.js</tspan>
+<tspan x="10" y="1898">115.  2017-04-19 06:19:13 +0000      881 bytes  components/menu/menu-gestures.d.ts</tspan>
+<tspan x="10" y="1914">116.  2017-04-19 06:19:13 +0000     4178 bytes  components/menu/menu-gestures.js</tspan>
+<tspan x="10" y="1930">117.  2017-04-19 06:19:13 +0000     1143 bytes  components/menu/menu-toggle.d.ts</tspan>
+<tspan x="10" y="1946">118.  2017-04-19 06:19:13 +0000     3757 bytes  components/menu/menu-toggle.js</tspan>
+<tspan x="10" y="1962">119.  2017-04-19 06:19:13 +0000      582 bytes  components/menu/menu-types.d.ts</tspan>
+<tspan x="10" y="1978">120.  2017-04-19 06:19:13 +0000     5053 bytes  components/menu/menu-types.js</tspan>
+<tspan x="10" y="1994">121.  2017-04-19 06:19:13 +0000     4329 bytes  components/menu/menu.d.ts</tspan>
+<tspan x="10" y="2010">122.  2017-04-19 06:19:13 +0000      463 bytes  components/menu/menu.ios.scss</tspan>
+<tspan x="10" y="2026">123.  2017-04-19 06:19:13 +0000    15969 bytes  components/menu/menu.js</tspan>
+<tspan x="10" y="2042">124.  2017-04-19 06:19:13 +0000      467 bytes  components/menu/menu.md.scss</tspan>
+<tspan x="10" y="2058">125.  2017-04-19 06:19:13 +0000     1783 bytes  components/menu/menu.scss</tspan>
+<tspan x="10" y="2074">126.  2017-04-19 06:19:13 +0000     3185 bytes  components/modal/modal.d.ts</tspan>
+<tspan x="10" y="2090">127.  2017-04-19 06:19:13 +0000      239 bytes  components/modal/modal.ios.scss</tspan>
+<tspan x="10" y="2106">128.  2017-04-19 06:19:13 +0000     6722 bytes  components/modal/modal.js</tspan>
+<tspan x="10" y="2122">129.  2017-04-19 06:19:13 +0000      247 bytes  components/modal/modal.md.scss</tspan>
+<tspan x="10" y="2138">130.  2017-04-19 06:19:13 +0000      258 bytes  components/modal/modal.scss</tspan>
+<tspan x="10" y="2154">131.  2017-04-19 06:19:13 +0000    20929 bytes  components/nav/nav-controller.d.ts</tspan>
+<tspan x="10" y="2170">132.  2017-04-19 06:19:13 +0000    62638 bytes  components/nav/nav-controller.js</tspan>
+<tspan x="10" y="2186">133.  2017-04-19 06:19:13 +0000     1347 bytes  components/nav/nav-params.d.ts</tspan>
+<tspan x="10" y="2202">134.  2017-04-19 06:19:13 +0000     1525 bytes  components/nav/nav-params.js</tspan>
+<tspan x="10" y="2218">135.  2017-04-19 06:19:13 +0000     2364 bytes  components/nav/nav-push.d.ts</tspan>
+<tspan x="10" y="2234">136.  2017-04-19 06:19:13 +0000     5006 bytes  components/nav/nav-push.js</tspan>
+<tspan x="10" y="2250">137.  2017-04-19 06:19:13 +0000      283 bytes  components/nav/nav-registry.d.ts</tspan>
+<tspan x="10" y="2266">138.  2017-04-19 06:19:13 +0000      750 bytes  components/nav/nav-registry.js</tspan>
+<tspan x="10" y="2282">139.  2017-04-19 06:19:13 +0000      729 bytes  components/nav/nav-router.d.ts</tspan>
+<tspan x="10" y="2298">140.  2017-04-19 06:19:13 +0000     5499 bytes  components/nav/nav-router.js</tspan>
+<tspan x="10" y="2314">141.  2017-04-19 06:19:13 +0000     5415 bytes  components/nav/nav.d.ts</tspan>
+<tspan x="10" y="2330">142.  2017-04-19 06:19:13 +0000     7752 bytes  components/nav/nav.js</tspan>
+<tspan x="10" y="2346">143.  2017-04-19 06:19:13 +0000      487 bytes  components/nav/swipe-back.d.ts</tspan>
+<tspan x="10" y="2362">144.  2017-04-19 06:19:13 +0000     2031 bytes  components/nav/swipe-back.js</tspan>
+<tspan x="10" y="2378">145.  2017-04-19 06:19:13 +0000     7474 bytes  components/nav/view-controller.d.ts</tspan>
+<tspan x="10" y="2394">146.  2017-04-19 06:19:13 +0000    14048 bytes  components/nav/view-controller.js</tspan>
+<tspan x="10" y="2410">147.  2017-04-19 06:19:13 +0000     2456 bytes  components/navbar/navbar.d.ts</tspan>
+<tspan x="10" y="2426">148.  2017-04-19 06:19:13 +0000     8757 bytes  components/navbar/navbar.js</tspan>
+<tspan x="10" y="2442">149.  2017-04-19 06:19:13 +0000      774 bytes  components/option/option.d.ts</tspan>
+<tspan x="10" y="2458">150.  2017-04-19 06:19:13 +0000     3041 bytes  components/option/option.js</tspan>
+<tspan x="10" y="2474">151.  2017-04-19 06:19:13 +0000       75 bytes  components/overlay/overlay.d.ts</tspan>
+<tspan x="10" y="2490">152.  2017-04-19 06:19:13 +0000     1184 bytes  components/overlay/overlay.js</tspan>
+<tspan x="10" y="2506">153.  2017-04-19 06:19:13 +0000     1520 bytes  components/radio/radio-button.d.ts</tspan>
+<tspan x="10" y="2522">154.  2017-04-19 06:19:13 +0000     6262 bytes  components/radio/radio-button.js</tspan>
+<tspan x="10" y="2538">155.  2017-04-19 06:19:13 +0000     2483 bytes  components/radio/radio-group.d.ts</tspan>
+<tspan x="10" y="2554">156.  2017-04-19 06:19:13 +0000     6716 bytes  components/radio/radio-group.js</tspan>
+<tspan x="10" y="2570">157.  2017-04-19 06:19:13 +0000     2182 bytes  components/radio/radio.ios.scss</tspan>
+<tspan x="10" y="2586">158.  2017-04-19 06:19:13 +0000     3089 bytes  components/radio/radio.md.scss</tspan>
+<tspan x="10" y="2602">159.  2017-04-19 06:19:13 +0000      775 bytes  components/refresher/refresher-content.d.ts</tspan>
+<tspan x="10" y="2618">160.  2017-04-19 06:19:13 +0000     3323 bytes  components/refresher/refresher-content.js</tspan>
+<tspan x="10" y="2634">161.  2017-04-19 06:19:13 +0000     7186 bytes  components/refresher/refresher.d.ts</tspan>
+<tspan x="10" y="2650">162.  2017-04-19 06:19:13 +0000    20608 bytes  components/refresher/refresher.js</tspan>
+<tspan x="10" y="2666">163.  2017-04-19 06:19:13 +0000     2171 bytes  components/refresher/refresher.scss</tspan>
+<tspan x="10" y="2682">164.  2017-04-19 06:19:13 +0000     1547 bytes  components/scroll/scroll.d.ts</tspan>
+<tspan x="10" y="2698">165.  2017-04-19 06:19:13 +0000     3635 bytes  components/scroll/scroll.js</tspan>
+<tspan x="10" y="2714">166.  2017-04-19 06:19:13 +0000      548 bytes  components/scroll/scroll.scss</tspan>
+<tspan x="10" y="2730">167.  2017-04-19 06:19:13 +0000     4371 bytes  components/searchbar/searchbar.d.ts</tspan>
+<tspan x="10" y="2746">168.  2017-04-19 06:19:13 +0000     5660 bytes  components/searchbar/searchbar.ios.scss</tspan>
+<tspan x="10" y="2762">169.  2017-04-19 06:19:13 +0000    12691 bytes  components/searchbar/searchbar.js</tspan>
+<tspan x="10" y="2778">170.  2017-04-19 06:19:13 +0000     4465 bytes  components/searchbar/searchbar.md.scss</tspan>
+<tspan x="10" y="2794">171.  2017-04-19 06:19:13 +0000      577 bytes  components/searchbar/searchbar.scss</tspan>
+<tspan x="10" y="2810">172.  2017-04-19 06:19:13 +0000     4311 bytes  components/segment/segment.d.ts</tspan>
+<tspan x="10" y="2826">173.  2017-04-19 06:19:13 +0000     4459 bytes  components/segment/segment.ios.scss</tspan>
+<tspan x="10" y="2842">174.  2017-04-19 06:19:13 +0000     8429 bytes  components/segment/segment.js</tspan>
+<tspan x="10" y="2858">175.  2017-04-19 06:19:13 +0000     2305 bytes  components/segment/segment.md.scss</tspan>
+<tspan x="10" y="2874">176.  2017-04-19 06:19:13 +0000      442 bytes  components/segment/segment.scss</tspan>
+<tspan x="10" y="2890">177.  2017-04-19 06:19:13 +0000     5266 bytes  components/select/select.d.ts</tspan>
+<tspan x="10" y="2906">178.  2017-04-19 06:19:13 +0000      863 bytes  components/select/select.ios.scss</tspan>
+<tspan x="10" y="2922">179.  2017-04-19 06:19:13 +0000    13856 bytes  components/select/select.js</tspan>
+<tspan x="10" y="2938">180.  2017-04-19 06:19:13 +0000      907 bytes  components/select/select.md.scss</tspan>
+<tspan x="10" y="2954">181.  2017-04-19 06:19:13 +0000      460 bytes  components/select/select.scss</tspan>
+<tspan x="10" y="2970">182.  2017-04-19 06:19:13 +0000     1618 bytes  components/show-hide-when/show-hide-when.d.ts</tspan>
+<tspan x="10" y="2986">183.  2017-04-19 06:19:13 +0000     5224 bytes  components/show-hide-when/show-hide-when.js</tspan>
+<tspan x="10" y="3002">184.  2017-04-19 06:19:13 +0000     5223 bytes  components/slides/slides.d.ts</tspan>
+<tspan x="10" y="3018">185.  2017-04-19 06:19:13 +0000    18799 bytes  components/slides/slides.js</tspan>
+<tspan x="10" y="3034">186.  2017-04-19 06:19:13 +0000    17911 bytes  components/slides/slides.scss</tspan>
+<tspan x="10" y="3050">187.  2017-04-19 06:19:13 +0000      226 bytes  components/slides/swiper-widget.d.ts</tspan>
+<tspan x="10" y="3066">188.  2017-04-19 06:19:13 +0000   159398 bytes  components/slides/swiper-widget.js</tspan>
+<tspan x="10" y="3082">189.  2017-04-19 06:19:13 +0000   100440 bytes  components/slides/swiper-widget.system.js</tspan>
+<tspan x="10" y="3098">190.  2017-04-19 06:19:13 +0000     2937 bytes  components/spinner/spinner.d.ts</tspan>
+<tspan x="10" y="3114">191.  2017-04-19 06:19:13 +0000     8684 bytes  components/spinner/spinner.js</tspan>
+<tspan x="10" y="3130">192.  2017-04-19 06:19:13 +0000     2105 bytes  components/spinner/spinner.scss</tspan>
+<tspan x="10" y="3146">193.  2017-04-19 06:19:13 +0000      515 bytes  components/tabs/tab-button.d.ts</tspan>
+<tspan x="10" y="3162">194.  2017-04-19 06:19:13 +0000     3163 bytes  components/tabs/tab-button.js</tspan>
+<tspan x="10" y="3178">195.  2017-04-19 06:19:13 +0000      216 bytes  components/tabs/tab-highlight.d.ts</tspan>
+<tspan x="10" y="3194">196.  2017-04-19 06:19:13 +0000     1764 bytes  components/tabs/tab-highlight.js</tspan>
+<tspan x="10" y="3210">197.  2017-04-19 06:19:13 +0000     3916 bytes  components/tabs/tab.d.ts</tspan>
+<tspan x="10" y="3226">198.  2017-04-19 06:19:13 +0000     8122 bytes  components/tabs/tab.js</tspan>
+<tspan x="10" y="3242">199.  2017-04-19 06:19:13 +0000     3716 bytes  components/tabs/tabs.d.ts</tspan>
+<tspan x="10" y="3258">200.  2017-04-19 06:19:13 +0000     2947 bytes  components/tabs/tabs.ios.scss</tspan>
+<tspan x="10" y="3274">201.  2017-04-19 06:19:13 +0000    12762 bytes  components/tabs/tabs.js</tspan>
+<tspan x="10" y="3290">202.  2017-04-19 06:19:13 +0000     2670 bytes  components/tabs/tabs.md.scss</tspan>
+<tspan x="10" y="3306">203.  2017-04-19 06:19:13 +0000     2554 bytes  components/tabs/tabs.scss</tspan>
+<tspan x="10" y="3322">204.  2017-04-19 06:19:13 +0000      518 bytes  components/tap-click/activator.d.ts</tspan>
+<tspan x="10" y="3338">205.  2017-04-19 06:19:13 +0000     3068 bytes  components/tap-click/activator.js</tspan>
+<tspan x="10" y="3354">206.  2017-04-19 06:19:13 +0000      375 bytes  components/tap-click/ripple.d.ts</tspan>
+<tspan x="10" y="3370">207.  2017-04-19 06:19:13 +0000     5105 bytes  components/tap-click/ripple.js</tspan>
+<tspan x="10" y="3386">208.  2017-04-19 06:19:13 +0000      848 bytes  components/tap-click/tap-click.d.ts</tspan>
+<tspan x="10" y="3402">209.  2017-04-19 06:19:13 +0000     7620 bytes  components/tap-click/tap-click.js</tspan>
+<tspan x="10" y="3418">210.  2017-04-19 06:19:13 +0000     2632 bytes  components/toggle/toggle.d.ts</tspan>
+<tspan x="10" y="3434">211.  2017-04-19 06:19:13 +0000     5044 bytes  components/toggle/toggle.ios.scss</tspan>
+<tspan x="10" y="3450">212.  2017-04-19 06:19:13 +0000     8844 bytes  components/toggle/toggle.js</tspan>
+<tspan x="10" y="3466">213.  2017-04-19 06:19:13 +0000     3799 bytes  components/toggle/toggle.md.scss</tspan>
+<tspan x="10" y="3482">214.  2017-04-19 06:19:13 +0000     1064 bytes  components/toolbar/toolbar-button.scss</tspan>
+<tspan x="10" y="3498">215.  2017-04-19 06:19:13 +0000     2923 bytes  components/toolbar/toolbar.d.ts</tspan>
+<tspan x="10" y="3514">216.  2017-04-19 06:19:13 +0000     6457 bytes  components/toolbar/toolbar.ios.scss</tspan>
+<tspan x="10" y="3530">217.  2017-04-19 06:19:13 +0000     7882 bytes  components/toolbar/toolbar.js</tspan>
+<tspan x="10" y="3546">218.  2017-04-19 06:19:13 +0000     6576 bytes  components/toolbar/toolbar.md.scss</tspan>
+<tspan x="10" y="3562">219.  2017-04-19 06:19:13 +0000     1590 bytes  components/toolbar/toolbar.scss</tspan>
+<tspan x="10" y="3578">220.  2017-04-19 06:19:13 +0000      564 bytes  config/bootstrap.d.ts</tspan>
+<tspan x="10" y="3594">221.  2017-04-19 06:19:13 +0000     5407 bytes  config/bootstrap.js</tspan>
+<tspan x="10" y="3610">222.  2017-04-19 06:19:13 +0000     5421 bytes  config/config.d.ts</tspan>
+<tspan x="10" y="3626">223.  2017-04-19 06:19:13 +0000    11659 bytes  config/config.js</tspan>
+<tspan x="10" y="3642">224.  2017-04-19 06:19:13 +0000     4177 bytes  config/directives.d.ts</tspan>
+<tspan x="10" y="3658">225.  2017-04-19 06:19:13 +0000     4773 bytes  config/directives.js</tspan>
+<tspan x="10" y="3674">226.  2017-04-19 06:19:13 +0000        0 bytes  config/modes.d.ts</tspan>
+<tspan x="10" y="3690">227.  2017-04-19 06:19:13 +0000     1208 bytes  config/modes.js</tspan>
+<tspan x="10" y="3706">228.  2017-04-19 06:19:13 +0000     2018 bytes  decorators/app.d.ts</tspan>
+<tspan x="10" y="3722">229.  2017-04-19 06:19:13 +0000     2849 bytes  decorators/app.js</tspan>
+<tspan x="10" y="3738">230.  2017-04-19 06:19:13 +0000     2816 bytes  decorators/page.d.ts</tspan>
+<tspan x="10" y="3754">231.  2017-04-19 06:19:13 +0000     2817 bytes  decorators/page.js</tspan>
+<tspan x="10" y="3770">232.  2017-04-19 06:19:13 +0000      921 bytes  fonts/ionicons.scss</tspan>
+<tspan x="10" y="3786">233.  2017-04-19 06:19:13 +0000   143936 bytes  fonts/ionicons.ttf</tspan>
+<tspan x="10" y="3802">234.  2017-04-19 06:19:13 +0000    80356 bytes  fonts/ionicons.woff</tspan>
+<tspan x="10" y="3818">235.  2017-04-19 06:19:13 +0000    61020 bytes  fonts/ionicons.woff2</tspan>
+<tspan x="10" y="3834">236.  2017-04-19 06:19:13 +0000    20040 bytes  fonts/roboto-bold.ttf</tspan>
+<tspan x="10" y="3850">237.  2017-04-19 06:19:13 +0000    13348 bytes  fonts/roboto-bold.woff</tspan>
+<tspan x="10" y="3866">238.  2017-04-19 06:19:13 +0000    19908 bytes  fonts/roboto-light.ttf</tspan>
+<tspan x="10" y="3882">239.  2017-04-19 06:19:13 +0000    13360 bytes  fonts/roboto-light.woff</tspan>
+<tspan x="10" y="3898">240.  2017-04-19 06:19:13 +0000    19752 bytes  fonts/roboto-medium.ttf</tspan>
+<tspan x="10" y="3914">241.  2017-04-19 06:19:13 +0000    13248 bytes  fonts/roboto-medium.woff</tspan>
+<tspan x="10" y="3930">242.  2017-04-19 06:19:13 +0000    19876 bytes  fonts/roboto-regular.ttf</tspan>
+<tspan x="10" y="3946">243.  2017-04-19 06:19:13 +0000    13308 bytes  fonts/roboto-regular.woff</tspan>
+<tspan x="10" y="3962">244.  2017-04-19 06:19:13 +0000     1204 bytes  fonts/roboto.scss</tspan>
+<tspan x="10" y="3978">245.  2017-04-19 06:19:13 +0000      270 bytes  gestures/drag-gesture.d.ts</tspan>
+<tspan x="10" y="3994">246.  2017-04-19 06:19:13 +0000     1529 bytes  gestures/drag-gesture.js</tspan>
+<tspan x="10" y="4010">247.  2017-04-19 06:19:13 +0000      562 bytes  gestures/gesture.d.ts</tspan>
+<tspan x="10" y="4026">248.  2017-04-19 06:19:13 +0000     2146 bytes  gestures/gesture.js</tspan>
+<tspan x="10" y="4042">249.  2017-04-19 06:19:13 +0000      414 bytes  gestures/hammer.d.ts</tspan>
+<tspan x="10" y="4058">250.  2017-04-19 06:19:13 +0000    68227 bytes  gestures/hammer.js</tspan>
+<tspan x="10" y="4074">251.  2017-04-19 06:19:13 +0000      434 bytes  gestures/slide-edge-gesture.d.ts</tspan>
+<tspan x="10" y="4090">252.  2017-04-19 06:19:13 +0000     1858 bytes  gestures/slide-edge-gesture.js</tspan>
+<tspan x="10" y="4106">253.  2017-04-19 06:19:13 +0000      875 bytes  gestures/slide-gesture.d.ts</tspan>
+<tspan x="10" y="4122">254.  2017-04-19 06:19:13 +0000     2857 bytes  gestures/slide-gesture.js</tspan>
+<tspan x="10" y="4138">255.  2017-04-19 06:19:13 +0000      252 bytes  globals.core.scss</tspan>
+<tspan x="10" y="4154">256.  2017-04-19 06:19:13 +0000       86 bytes  globals.ios.scss</tspan>
+<tspan x="10" y="4170">257.  2017-04-19 06:19:13 +0000       99 bytes  globals.md.scss</tspan>
+<tspan x="10" y="4186">258.  2017-04-19 06:19:13 +0000      576 bytes  index.d.ts</tspan>
+<tspan x="10" y="4202">259.  2017-04-19 06:19:13 +0000      966 bytes  index.js</tspan>
+<tspan x="10" y="4218">260.  2017-04-19 06:19:13 +0000      173 bytes  ionic.ios.scss</tspan>
+<tspan x="10" y="4234">261.  2017-04-19 06:19:13 +0000      207 bytes  ionic.md.scss</tspan>
+<tspan x="10" y="4250">262.  2017-04-19 06:19:13 +0000      232 bytes  ionic.scss</tspan>
+<tspan x="10" y="4266">263.  2017-04-19 06:19:13 +0000     2816 bytes  package.json</tspan>
+<tspan x="10" y="4282">264.  2017-04-19 06:19:13 +0000     1097 bytes  platform/cordova.ios.scss</tspan>
+<tspan x="10" y="4298">265.  2017-04-19 06:19:13 +0000     8123 bytes  platform/platform.d.ts</tspan>
+<tspan x="10" y="4314">266.  2017-04-19 06:19:13 +0000    20468 bytes  platform/platform.js</tspan>
+<tspan x="10" y="4330">267.  2017-04-19 06:19:13 +0000        0 bytes  platform/registry.d.ts</tspan>
+<tspan x="10" y="4346">268.  2017-04-19 06:19:13 +0000     4668 bytes  platform/registry.js</tspan>
+<tspan x="10" y="4362">269.  2017-04-19 06:19:13 +0000      107 bytes  platform/storage.d.ts</tspan>
+<tspan x="10" y="4378">270.  2017-04-19 06:19:13 +0000      219 bytes  platform/storage.js</tspan>
+<tspan x="10" y="4394">271.  2017-04-19 06:19:13 +0000     1586 bytes  platform/storage/local-storage.d.ts</tspan>
+<tspan x="10" y="4410">272.  2017-04-19 06:19:13 +0000     2841 bytes  platform/storage/local-storage.js</tspan>
+<tspan x="10" y="4426">273.  2017-04-19 06:19:13 +0000     2923 bytes  platform/storage/sql.d.ts</tspan>
+<tspan x="10" y="4442">274.  2017-04-19 06:19:13 +0000     7912 bytes  platform/storage/sql.js</tspan>
+<tspan x="10" y="4458">275.  2017-04-19 06:19:13 +0000     1073 bytes  platform/storage/storage.d.ts</tspan>
+<tspan x="10" y="4474">276.  2017-04-19 06:19:13 +0000     2338 bytes  platform/storage/storage.js</tspan>
+<tspan x="10" y="4490">277.  2017-04-19 06:19:13 +0000     3317 bytes  themes/dark.ios.scss</tspan>
+<tspan x="10" y="4506">278.  2017-04-19 06:19:13 +0000     3094 bytes  themes/dark.md.scss</tspan>
+<tspan x="10" y="4522">279.  2017-04-19 06:19:13 +0000     1032 bytes  themes/dark.scss</tspan>
+<tspan x="10" y="4538">280.  2017-04-19 06:19:13 +0000     2464 bytes  themes/default.ios.scss</tspan>
+<tspan x="10" y="4554">281.  2017-04-19 06:19:13 +0000     2209 bytes  themes/default.md.scss</tspan>
+<tspan x="10" y="4570">282.  2017-04-19 06:19:13 +0000     1030 bytes  themes/default.scss</tspan>
+<tspan x="10" y="4586">283.  2017-04-19 06:19:13 +0000     1570 bytes  tooling/generate.js</tspan>
+<tspan x="10" y="4602">284.  2017-04-19 06:19:13 +0000     2084 bytes  tooling/generator.js</tspan>
+<tspan x="10" y="4618">285.  2017-04-19 06:19:13 +0000      212 bytes  tooling/generators/component/component.tmpl.html</tspan>
+<tspan x="10" y="4634">286.  2017-04-19 06:19:13 +0000      577 bytes  tooling/generators/component/component.tmpl.js</tspan>
+<tspan x="10" y="4650">287.  2017-04-19 06:19:13 +0000      286 bytes  tooling/generators/component/index.js</tspan>
+<tspan x="10" y="4666">288.  2017-04-19 06:19:13 +0000      384 bytes  tooling/generators/directive/directive.tmpl.js</tspan>
+<tspan x="10" y="4682">289.  2017-04-19 06:19:13 +0000      287 bytes  tooling/generators/directive/index.js</tspan>
+<tspan x="10" y="4698">290.  2017-04-19 06:19:13 +0000     1280 bytes  tooling/generators/page/index.js</tspan>
+<tspan x="10" y="4714">291.  2017-04-19 06:19:13 +0000      311 bytes  tooling/generators/page/page.tmpl.html</tspan>
+<tspan x="10" y="4730">292.  2017-04-19 06:19:13 +0000      451 bytes  tooling/generators/page/page.tmpl.js</tspan>
+<tspan x="10" y="4746">293.  2017-04-19 06:19:13 +0000       22 bytes  tooling/generators/page/page.tmpl.scss</tspan>
+<tspan x="10" y="4762">294.  2017-04-19 06:19:13 +0000      952 bytes  tooling/generators/pipe/index.js</tspan>
+<tspan x="10" y="4778">295.  2017-04-19 06:19:13 +0000      454 bytes  tooling/generators/pipe/pipe.tmpl.js</tspan>
+<tspan x="10" y="4794">296.  2017-04-19 06:19:13 +0000      283 bytes  tooling/generators/provider/index.js</tspan>
+<tspan x="10" y="4810">297.  2017-04-19 06:19:13 +0000     1111 bytes  tooling/generators/provider/provider.tmpl.js</tspan>
+<tspan x="10" y="4826">298.  2017-04-19 06:19:13 +0000     2146 bytes  tooling/generators/tabs/index.js</tspan>
+<tspan x="10" y="4842">299.  2017-04-19 06:19:13 +0000      171 bytes  tooling/generators/tabs/tabs.tmpl.html</tspan>
+<tspan x="10" y="4858">300.  2017-04-19 06:19:13 +0000      538 bytes  tooling/generators/tabs/tabs.tmpl.js</tspan>
+<tspan x="10" y="4874">301.  2017-04-19 06:19:13 +0000      112 bytes  tooling/index.js</tspan>
+<tspan x="10" y="4890">302.  2017-04-19 06:19:13 +0000        0 bytes  transitions/transition-ios.d.ts</tspan>
+<tspan x="10" y="4906">303.  2017-04-19 06:19:13 +0000     7876 bytes  transitions/transition-ios.js</tspan>
+<tspan x="10" y="4922">304.  2017-04-19 06:19:13 +0000        0 bytes  transitions/transition-md.d.ts</tspan>
+<tspan x="10" y="4938">305.  2017-04-19 06:19:13 +0000     2647 bytes  transitions/transition-md.js</tspan>
+<tspan x="10" y="4954">306.  2017-04-19 06:19:13 +0000      600 bytes  transitions/transition.d.ts</tspan>
+<tspan x="10" y="4970">307.  2017-04-19 06:19:13 +0000     1172 bytes  transitions/transition.js</tspan>
+<tspan x="10" y="4986">308.  2017-04-19 06:19:13 +0000     1091 bytes  translation/translate.d.ts</tspan>
+<tspan x="10" y="5002">309.  2017-04-19 06:19:13 +0000     1863 bytes  translation/translate.js</tspan>
+<tspan x="10" y="5018">310.  2017-04-19 06:19:13 +0000      614 bytes  translation/translate_pipe.d.ts</tspan>
+<tspan x="10" y="5034">311.  2017-04-19 06:19:13 +0000     1851 bytes  translation/translate_pipe.js</tspan>
+<tspan x="10" y="5050">312.  2017-04-19 06:19:13 +0000      110 bytes  util.d.ts</tspan>
+<tspan x="10" y="5066">313.  2017-04-19 06:19:13 +0000      191 bytes  util.js</tspan>
+<tspan x="10" y="5082">314.  2017-04-19 06:19:13 +0000      144 bytes  util/click-block.d.ts</tspan>
+<tspan x="10" y="5098">315.  2017-04-19 06:19:13 +0000     1247 bytes  util/click-block.js</tspan>
+<tspan x="10" y="5114">316.  2017-04-19 06:19:13 +0000     1653 bytes  util/dom.d.ts</tspan>
+<tspan x="10" y="5130">317.  2017-04-19 06:19:13 +0000     8798 bytes  util/dom.js</tspan>
+<tspan x="10" y="5146">318.  2017-04-19 06:19:13 +0000     1456 bytes  util/events.d.ts</tspan>
+<tspan x="10" y="5162">319.  2017-04-19 06:19:13 +0000     2978 bytes  util/events.js</tspan>
+<tspan x="10" y="5178">320.  2017-04-19 06:19:13 +0000      182 bytes  util/feature-detect.d.ts</tspan>
+<tspan x="10" y="5194">321.  2017-04-19 06:19:13 +0000     1491 bytes  util/feature-detect.js</tspan>
+<tspan x="10" y="5210">322.  2017-04-19 06:19:13 +0000      438 bytes  util/form.d.ts</tspan>
+<tspan x="10" y="5226">323.  2017-04-19 06:19:13 +0000     2960 bytes  util/form.js</tspan>
+<tspan x="10" y="5242">324.  2017-04-19 06:19:13 +0000     1603 bytes  util/functions.scss</tspan>
+<tspan x="10" y="5258">325.  2017-04-19 06:19:13 +0000     1854 bytes  util/keyboard.d.ts</tspan>
+<tspan x="10" y="5274">326.  2017-04-19 06:19:13 +0000     6391 bytes  util/keyboard.js</tspan>
+<tspan x="10" y="5290">327.  2017-04-19 06:19:13 +0000     1139 bytes  util/mixins.scss</tspan>
+<tspan x="10" y="5306">328.  2017-04-19 06:19:13 +0000     2213 bytes  util/util.d.ts</tspan>
+<tspan x="10" y="5322">329.  2017-04-19 06:19:13 +0000     6828 bytes  util/util.js</tspan>
+<tspan x="10" y="5338">330.  2017-04-19 06:19:13 +0000     3642 bytes  util/util.scss</tspan>
 </text>
 </svg>
